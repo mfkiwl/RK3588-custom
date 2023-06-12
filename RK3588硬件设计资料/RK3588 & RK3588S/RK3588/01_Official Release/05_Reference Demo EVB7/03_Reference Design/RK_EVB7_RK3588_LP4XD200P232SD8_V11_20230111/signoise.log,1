@@ -1,0 +1,15 @@
+INFO: Loaded existing device file 'Z:\06 周视项目组\SDK\RK3588硬件设计资料\RK3588 & RK3588S\RK3588\01_Official Release\05_Reference Demo EVB7\03_Reference Design\RK_EVB7_RK3588_LP4XD200P232SD8_V11_20230111\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing interconnect file 'Z:\06 周视项目组\SDK\RK3588硬件设计资料\RK3588 & RK3588S\RK3588\01_Official Release\05_Reference Demo EVB7\03_Reference Design\RK_EVB7_RK3588_LP4XD200P232SD8_V11_20230111\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_283
+INFO: Executing command: bem2d 0 "C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaah29240.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_284
+INFO: Executing command: bem2d 0 "C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaak29240.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_285
+INFO: Executing command: bem2d 0 "C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaal29240.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_286
+INFO: Executing command: bem2d 0 "C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaam29240.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_287
+INFO: Executing command: bem2d 0 "C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaan29240.in" 0.00127

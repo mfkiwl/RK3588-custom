@@ -1,0 +1,1628 @@
+\t (22:22:16) allegro 16.6-2015 S112 (v16-6-112JB) Windows 32
+\t (22:22:16)     Journal start - Tue Mar 28 13:11:44 2023
+\t (22:22:16)         Host=DESKTOP-GK29KC0 User=Administrator Pid=644688 CPUs=8
+\t (22:22:16) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (22:22:16) 
+\d (22:22:16) Design opened: Z:/06 RK3588项目组/周视项目组/SDK/RK3588硬件设计资料/RK3588 & RK3588S/RK3588/01_Official Release/05_Reference Demo EVB7/03_Reference Design/RK_EVB7_RK3588_LP4XD200P232SD8_V11_20230111/RK_EVB7_RK3588_LP4XD200P232SD8_V11_20230111YWQ.brd
+\t (22:22:21) **********************************************************************************************************************
+\t (22:22:21) ["EDA365 Skill"] has expired, if you need the version, please regist it again.
+\t (22:22:21) **********************************************************************************************************************
+\t (22:22:21) >>EDA365 Skill Loaded Successfully!
+\i (22:22:21) generaledit 
+\i (22:22:22) setwindow form.vf_vis
+\i (22:22:22) FORM vf_vis colorview_list Film: BOTTOM 
+\i (22:22:25) FORM vf_vis colorview_list Film: L2-GND1 
+\i (22:22:27) FORM vf_vis colorview_list Film: L3-POWER1 
+\i (22:22:29) setwindow pcb
+\i (22:22:29) zoom in 1 
+\i (22:22:29) setwindow pcb
+\i (22:22:29) zoom in -508.93 -405.36
+\i (22:22:29) trapsize 2230
+\i (22:22:29) zoom in 1 
+\i (22:22:29) setwindow pcb
+\i (22:22:29) zoom in -843.40 -249.27
+\i (22:22:29) trapsize 1115
+\i (22:22:30) zoom in 1 
+\i (22:22:30) setwindow pcb
+\i (22:22:30) zoom in -1110.98 -111.02
+\i (22:22:30) trapsize 557
+\i (22:22:30) zoom out 1 
+\i (22:22:30) setwindow pcb
+\i (22:22:30) zoom out -1282.68 -126.63
+\i (22:22:30) trapsize 1115
+\i (22:22:31) zoom in 1 
+\i (22:22:31) setwindow pcb
+\i (22:22:31) zoom in -268.10 89.67
+\i (22:22:31) trapsize 557
+\i (22:22:31) zoom in 1 
+\i (22:22:31) setwindow pcb
+\i (22:22:31) zoom in -268.10 89.67
+\i (22:22:31) trapsize 279
+\i (22:22:31) zoom in 1 
+\i (22:22:31) setwindow pcb
+\i (22:22:31) zoom in -268.10 89.68
+\i (22:22:31) trapsize 139
+\i (22:22:32) zoom out 1 
+\i (22:22:32) setwindow pcb
+\i (22:22:32) zoom out -387.95 59.29
+\i (22:22:32) trapsize 279
+\i (22:22:32) zoom out 1 
+\i (22:22:32) setwindow pcb
+\i (22:22:32) zoom out -389.07 59.30
+\i (22:22:32) trapsize 557
+\i (22:22:32) zoom out 1 
+\i (22:22:32) setwindow pcb
+\i (22:22:32) zoom out -391.30 57.07
+\i (22:22:32) trapsize 1115
+\i (22:22:32) zoom out 1 
+\i (22:22:32) setwindow pcb
+\i (22:22:32) zoom out -159.41 79.38
+\i (22:22:32) trapsize 2230
+\i (22:22:33) zoom in 1 
+\i (22:22:33) setwindow pcb
+\i (22:22:33) zoom in 99.25 137.36
+\i (22:22:33) trapsize 1115
+\i (22:22:34) zoom in 1 
+\i (22:22:34) setwindow pcb
+\i (22:22:34) zoom in 74.72 -47.72
+\i (22:22:34) trapsize 557
+\i (22:22:37) setwindow form.vf_vis
+\i (22:22:37) FORM vf_vis colorview_list Film: L4-GND2 
+\i (22:22:39) setwindow pcb
+\i (22:22:39) zoom out 1 
+\i (22:22:39) setwindow pcb
+\i (22:22:39) zoom out 337.84 -72.25
+\i (22:22:39) trapsize 1115
+\i (22:22:39) zoom out 1 
+\i (22:22:39) setwindow pcb
+\i (22:22:39) zoom out 337.84 -72.25
+\i (22:22:39) trapsize 2230
+\i (22:22:39) zoom in 1 
+\i (22:22:39) setwindow pcb
+\i (22:22:39) zoom in 288.78 -335.36
+\i (22:22:39) trapsize 1115
+\i (22:22:40) zoom in 1 
+\i (22:22:40) setwindow pcb
+\i (22:22:40) zoom in 226.35 -299.68
+\i (22:22:40) trapsize 557
+\i (22:22:44) setwindow form.vf_vis
+\i (22:22:44) FORM vf_vis colorview_list Film: L5-POWER2 
+\i (22:22:44) setwindow pcb
+\i (22:22:44) zoom out 1 
+\i (22:22:44) setwindow pcb
+\i (22:22:44) zoom out 283.21 -247.28
+\i (22:22:44) trapsize 1115
+\i (22:22:45) zoom out 1 
+\i (22:22:45) setwindow pcb
+\i (22:22:45) zoom out 283.21 -247.28
+\i (22:22:45) trapsize 2230
+\i (22:22:45) zoom in 1 
+\i (22:22:45) setwindow pcb
+\i (22:22:45) zoom in -73.58 78.29
+\i (22:22:45) trapsize 1115
+\i (22:22:46) zoom in 1 
+\i (22:22:46) setwindow pcb
+\i (22:22:46) zoom in -46.82 73.83
+\i (22:22:46) trapsize 557
+\i (22:22:49) setwindow form.vf_vis
+\i (22:22:49) FORM vf_vis colorview_list Film: L6-S2 
+\i (22:22:49) setwindow pcb
+\i (22:22:49) zoom out 1 
+\i (22:22:49) setwindow pcb
+\i (22:22:49) zoom out 218.53 -41.01
+\i (22:22:49) trapsize 1115
+\i (22:22:51) zoom out 1 
+\i (22:22:51) setwindow pcb
+\i (22:22:51) zoom out -642.20 157.45
+\i (22:22:51) trapsize 2230
+\i (22:22:51) zoom in 1 
+\i (22:22:51) setwindow pcb
+\i (22:22:51) zoom in 499.48 193.14
+\i (22:22:51) trapsize 1115
+\i (22:22:52) zoom in 1 
+\i (22:22:52) setwindow pcb
+\i (22:22:52) zoom in 247.51 333.62
+\i (22:22:52) trapsize 557
+\i (22:22:52) zoom in 1 
+\i (22:22:52) setwindow pcb
+\i (22:22:52) zoom in 247.51 333.62
+\i (22:22:52) trapsize 279
+\i (22:22:52) zoom out 1 
+\i (22:22:52) setwindow pcb
+\i (22:22:52) zoom out 129.89 325.26
+\i (22:22:52) trapsize 557
+\i (22:22:53) zoom out 1 
+\i (22:22:53) setwindow pcb
+\i (22:22:53) zoom out 119.86 316.34
+\i (22:22:53) trapsize 1115
+\i (22:22:55) zoom out 1 
+\i (22:22:55) setwindow pcb
+\i (22:22:55) zoom out 95.32 166.94
+\i (22:22:55) trapsize 2230
+\i (22:22:56) zoom in 1 
+\i (22:22:56) setwindow pcb
+\i (22:22:56) zoom in 59.64 77.74
+\i (22:22:56) trapsize 1115
+\i (22:22:57) zoom in 1 
+\i (22:22:57) setwindow pcb
+\i (22:22:57) zoom in 59.64 77.74
+\i (22:22:57) trapsize 557
+\i (22:22:59) setwindow form.vf_vis
+\i (22:22:59) FORM vf_vis colorview_list Film: L7-GND3 
+\i (22:23:03) FORM vf_vis colorview_list Film: BOTTOM 
+\i (22:23:05) setwindow pcb
+\i (22:23:05) zoom out 1 
+\i (22:23:05) setwindow pcb
+\i (22:23:05) zoom out 217.96 173.62
+\i (22:23:05) trapsize 1115
+\i (22:23:06) zoom out 1 
+\i (22:23:06) setwindow pcb
+\i (22:23:06) zoom out 202.35 180.32
+\i (22:23:06) trapsize 2230
+\i (22:23:43) zoom in 1 
+\i (22:23:43) setwindow pcb
+\i (22:23:43) zoom in -1581.53 1027.66
+\i (22:23:43) trapsize 1115
+\i (22:23:43) zoom in 1 
+\i (22:23:43) setwindow pcb
+\i (22:23:43) zoom in -1539.16 1029.89
+\i (22:23:43) trapsize 557
+\i (22:23:44) zoom in 1 
+\i (22:23:44) setwindow pcb
+\i (22:23:44) zoom in -1535.81 1029.89
+\i (22:23:44) trapsize 279
+\i (22:23:45) zoom out 1 
+\i (22:23:45) setwindow pcb
+\i (22:23:45) zoom out -1497.35 978.60
+\i (22:23:45) trapsize 557
+\i (22:23:45) zoom out 1 
+\i (22:23:45) setwindow pcb
+\i (22:23:45) zoom out -1499.57 975.26
+\i (22:23:45) trapsize 1115
+\i (22:23:47) zoom out 1 
+\i (22:23:47) setwindow pcb
+\i (22:23:47) zoom out -1049.15 903.91
+\i (22:23:47) trapsize 2230
+\i (22:23:48) zoom in 1 
+\i (22:23:48) setwindow pcb
+\i (22:23:48) zoom in -415.88 -28.17
+\i (22:23:48) trapsize 1115
+\i (22:23:48) zoom in 1 
+\i (22:23:48) setwindow pcb
+\i (22:23:48) zoom in -409.19 -70.54
+\i (22:23:48) trapsize 557
+\i (22:23:49) zoom in 1 
+\i (22:23:49) setwindow pcb
+\i (22:23:49) zoom in -409.19 -70.54
+\i (22:23:49) trapsize 279
+\i (22:23:58) zoom out 1 
+\i (22:23:58) setwindow pcb
+\i (22:23:58) zoom out -658.38 -20.93
+\i (22:23:58) trapsize 557
+\i (22:23:58) zoom out 1 
+\i (22:23:58) setwindow pcb
+\i (22:23:58) zoom out -604.86 -32.07
+\i (22:23:58) trapsize 1115
+\i (22:26:40) xhilite 
+\i (22:26:41) xname_flush 
+\i (22:26:41) done 
+\i (22:26:41) generaledit 
+\i (22:28:36) xhilite 
+\i (22:28:36) xname_flush 
+\i (22:28:36) done 
+\i (22:28:36) generaledit 
+\i (22:30:23) xhilite 
+\i (22:30:23) xname_flush 
+\i (22:30:23) done 
+\i (22:30:24) generaledit 
+\i (22:30:26) pick grid 1502.35 518.70
+\t (22:30:26) last pick:  1500.00 520.00
+\i (22:30:27) add connect 
+\t (22:30:27) Pick first element.
+\i (22:30:29) prepopup 1147.80 603.44
+\i (22:30:30) done 
+\i (22:30:30) generaledit 
+\i (22:30:31) zoom out 1 
+\i (22:30:31) setwindow pcb
+\i (22:30:31) zoom out -199.03 257.81
+\i (22:30:31) trapsize 2230
+\t (22:32:16) Performing autosave...
+\t (22:32:16) Autosave successful
+\i (22:37:57) zoom in 1 
+\i (22:37:57) setwindow pcb
+\i (22:37:57) zoom in -181.20 387.15
+\i (22:37:57) trapsize 1115
+\i (22:37:58) zoom in 1 
+\i (22:37:58) setwindow pcb
+\i (22:37:58) zoom in -190.12 378.23
+\i (22:37:58) trapsize 557
+\i (22:37:58) zoom out 1 
+\i (22:37:58) setwindow pcb
+\i (22:37:58) zoom out -116.54 250.02
+\i (22:37:58) trapsize 1115
+\i (22:38:01) setwindow form.vf_vis
+\i (22:38:01) FORM vf_vis 8 all_colorvisible YES 
+\i (22:38:02) FORM vf_vis 8 all_colorvisible NO 
+\i (22:38:03) FORM vf_vis 6 all_colorvisible YES 
+\i (22:38:05) setwindow pcb
+\i (22:38:05) zoom out 1 
+\i (22:38:05) setwindow pcb
+\i (22:38:05) zoom out -85.32 51.56
+\i (22:38:05) trapsize 2230
+\i (22:38:06) zoom in 1 
+\i (22:38:06) setwindow pcb
+\i (22:38:06) zoom in 79.68 -216.03
+\i (22:38:06) trapsize 1115
+\i (22:38:07) zoom in 1 
+\i (22:38:07) setwindow pcb
+\i (22:38:07) zoom in 68.53 -182.58
+\i (22:38:07) trapsize 557
+\i (22:38:08) zoom out 1 
+\i (22:38:08) setwindow pcb
+\i (22:38:08) zoom out 87.48 -97.84
+\i (22:38:08) trapsize 1115
+\i (22:38:10) setwindow form.vf_vis
+\i (22:38:10) FORM vf_vis 6 all_colorvisible NO 
+\i (22:38:11) FORM vf_vis 5 all_colorvisible YES 
+\i (22:38:12) FORM vf_vis 5 all_colorvisible NO 
+\i (22:38:28) setwindow pcb
+\i (22:38:28) xhilite 
+\i (22:38:28) xname_flush 
+\i (22:38:28) done 
+\i (22:38:28) generaledit 
+\i (22:39:17) xhilite 
+\i (22:39:18) xname_flush 
+\i (22:39:18) done 
+\i (22:39:18) generaledit 
+\w (22:42:16) Save Pending
+\i (22:45:36) zoom out 1 
+\i (22:45:36) setwindow pcb
+\i (22:45:36) zoom out 49.57 163.05
+\i (22:45:36) trapsize 2230
+\i (22:45:36) zoom out 1 
+\i (22:45:36) setwindow pcb
+\i (22:45:36) zoom out -26.24 -229.39
+\i (22:45:36) trapsize 4460
+\i (22:45:36) zoom out 1 
+\i (22:45:36) setwindow pcb
+\i (22:45:36) zoom out -35.17 -505.90
+\i (22:45:36) trapsize 8919
+\i (22:45:37) zoom out 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom out 2604.99 -612.93
+\i (22:45:37) trapsize 18680
+\i (22:45:37) zoom in 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom in 4688.67 -2110.83
+\i (22:45:37) trapsize 9340
+\i (22:45:37) zoom in 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom in 3829.40 -1942.71
+\i (22:45:37) trapsize 4670
+\i (22:45:37) zoom in 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom in 1961.40 -943.33
+\i (22:45:37) trapsize 2335
+\i (22:45:37) zoom in 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom in 1947.40 -938.66
+\i (22:45:37) trapsize 1167
+\i (22:45:37) zoom in 1 
+\i (22:45:37) setwindow pcb
+\i (22:45:37) zoom in 2033.79 -1006.37
+\i (22:45:37) trapsize 584
+\i (22:45:38) zoom out 1 
+\i (22:45:38) setwindow pcb
+\i (22:45:38) zoom out 2807.84 -1241.03
+\i (22:45:38) trapsize 1167
+\i (22:45:38) zoom out 1 
+\i (22:45:38) setwindow pcb
+\i (22:45:38) zoom out 2835.86 -1266.72
+\i (22:45:38) trapsize 2335
+\i (22:45:38) zoom out 1 
+\i (22:45:38) setwindow pcb
+\i (22:45:38) zoom out 3400.93 -1616.96
+\i (22:45:38) trapsize 4670
+\i (22:45:43) setwindow form.vf_vis
+\i (22:45:43) FORM vf_vis colorview_list Film: L5-POWER2 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom in 1 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom in -92.21 -94.55
+\i (22:45:44) trapsize 2335
+\i (22:45:44) zoom out 1 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom out -106.22 -66.52
+\i (22:45:44) trapsize 4670
+\i (22:45:44) zoom in 1 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom in -171.60 587.27
+\i (22:45:44) trapsize 2335
+\i (22:45:44) zoom in 1 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom in -171.60 587.27
+\i (22:45:44) trapsize 1167
+\i (22:45:44) zoom in 1 
+\i (22:45:44) setwindow pcb
+\i (22:45:44) zoom in -171.60 587.27
+\i (22:45:44) trapsize 584
+\i (22:45:45) zoom out 1 
+\i (22:45:45) setwindow pcb
+\i (22:45:45) zoom out -134.24 446.01
+\i (22:45:45) trapsize 1167
+\i (22:45:46) zoom out 1 
+\i (22:45:46) setwindow pcb
+\i (22:45:46) zoom out -134.24 443.67
+\i (22:45:46) trapsize 2335
+\i (22:45:48) zoom in 1 
+\i (22:45:48) setwindow pcb
+\i (22:45:48) zoom in 421.49 345.61
+\i (22:45:48) trapsize 1167
+\i (22:45:49) setwindow form.vf_vis
+\i (22:45:49) FORM vf_vis colorview_list Film: ADT 
+\i (22:45:49) setwindow pcb
+\i (22:45:49) zoom out 1 
+\i (22:45:49) setwindow pcb
+\i (22:45:49) zoom out 388.80 518.40
+\i (22:45:49) trapsize 2335
+\i (22:45:54) setwindow form.vf_vis
+\i (22:45:54) FORM vf_vis colorview_list Film: L5-POWER2 
+\i (22:45:54) setwindow pcb
+\i (22:45:54) zoom in 1 
+\i (22:45:54) setwindow pcb
+\i (22:45:54) zoom in 930.53 784.58
+\i (22:45:54) trapsize 1167
+\i (22:45:55) pick grid 1147.69 775.24
+\t (22:45:55) last pick:  1150.00 775.00
+\i (22:45:56) add connect 
+\t (22:45:56) Pick first element.
+\i (22:45:56) pick grid 841.80 812.60
+\t (22:45:56) last pick:  840.00 815.00
+\t (22:45:56) last pick:  840.00 815.00
+\i (22:45:57) zoom in 1 
+\i (22:45:57) setwindow pcb
+\i (22:45:57) zoom in 988.91 775.24
+\i (22:45:57) trapsize 584
+\i (22:45:57) zoom in 1 
+\i (22:45:57) setwindow pcb
+\i (22:45:57) zoom in 988.91 775.25
+\i (22:45:57) trapsize 292
+\i (22:45:57) zoom in 1 
+\i (22:45:57) setwindow pcb
+\i (22:45:57) zoom in 976.07 780.51
+\i (22:45:57) trapsize 146
+\i (22:45:57) zoom out 1 
+\i (22:45:57) setwindow pcb
+\i (22:45:57) zoom out 922.07 779.63
+\i (22:45:57) trapsize 292
+\i (22:45:58) zoom out 1 
+\i (22:45:58) setwindow pcb
+\i (22:45:58) zoom out 922.08 777.88
+\i (22:45:58) trapsize 584
+\i (22:45:58) prepopup 904.56 882.96
+\i (22:45:59) oops 
+\t (22:45:59) last pick:  840.00 815.00
+\t (22:45:59) Pick first element.
+\i (22:45:59) zoom out 1 
+\i (22:45:59) setwindow pcb
+\i (22:45:59) zoom out 850.85 686.82
+\i (22:45:59) trapsize 1167
+\i (22:46:00) prepopup 825.18 1023.06
+\i (22:46:00) done 
+\t (22:46:00) Performing autosave...
+\t (22:46:01) Autosave successful
+\i (22:46:01) generaledit 
+\i (22:46:01) add connect 
+\t (22:46:01) Pick first element.
+\i (22:46:02) pick grid 248.44 1072.09
+\t (22:46:02) last pick:  250.00 1070.00
+\t (22:46:02) last pick:  250.00 1070.00
+\i (22:46:02) zoom in 1 
+\i (22:46:02) setwindow pcb
+\i (22:46:02) zoom in 271.79 894.63
+\i (22:46:02) trapsize 584
+\i (22:46:02) zoom in 1 
+\i (22:46:02) setwindow pcb
+\i (22:46:02) zoom in 271.79 894.64
+\i (22:46:02) trapsize 292
+\i (22:46:02) zoom in 1 
+\i (22:46:02) setwindow pcb
+\i (22:46:02) zoom in 274.12 894.06
+\i (22:46:02) trapsize 146
+\i (22:46:03) zoom out 1 
+\i (22:46:03) setwindow pcb
+\i (22:46:03) zoom out 342.71 858.16
+\i (22:46:03) trapsize 292
+\i (22:46:03) zoom out 1 
+\i (22:46:03) setwindow pcb
+\i (22:46:03) zoom out 353.80 827.81
+\i (22:46:03) trapsize 584
+\i (22:46:03) prepopup 212.54 994.77
+\i (22:46:04) done 
+\i (22:46:04) add connect 
+\t (22:46:05) Pick first element.
+\i (22:46:05) pick grid -9.28 1308.82
+\t (22:46:05) last pick:  -10.00 1310.00
+\t (22:46:05) last pick:  -10.00 1310.00
+\i (22:46:05) mouse_pos 95.80 1151.21
+\i (22:46:05) mouse_pos 95.80 1126.69
+\i (22:46:06) zoom out 1 
+\i (22:46:06) setwindow pcb
+\i (22:46:06) zoom out 88.79 1001.77
+\i (22:46:06) trapsize 1167
+\i (22:46:06) mouse_pos 84.13 1146.55
+\i (22:46:06) mouse_pos 84.13 1179.24
+\i (22:46:07) prepopup -2.27 1443.09
+\i (22:46:08) done 
+\i (22:46:08) generaledit 
+\i (22:46:08) zoom out 1 
+\i (22:46:09) setwindow pcb
+\i (22:46:09) zoom out 261.58 1284.31
+\i (22:46:09) trapsize 2335
+\i (22:46:09) zoom in 1 
+\i (22:46:09) setwindow pcb
+\i (22:46:09) zoom in -270.79 -494.93
+\i (22:46:09) trapsize 1167
+\i (22:46:09) zoom in 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom in -270.79 -499.60
+\i (22:46:10) trapsize 584
+\i (22:46:10) zoom in 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom in -273.12 -499.60
+\i (22:46:10) trapsize 292
+\i (22:46:10) zoom in 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom in -276.62 -488.51
+\i (22:46:10) trapsize 146
+\i (22:46:10) zoom out 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom out -240.72 -400.36
+\i (22:46:10) trapsize 292
+\i (22:46:10) zoom out 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom out -238.96 -400.37
+\i (22:46:10) trapsize 584
+\i (22:46:10) zoom out 1 
+\i (22:46:10) setwindow pcb
+\i (22:46:10) zoom out -238.97 -400.36
+\i (22:46:10) trapsize 1167
+\i (22:46:10) add connect 
+\t (22:46:11) Pick first element.
+\i (22:46:11) pick grid -381.39 -624.52
+\t (22:46:11) last pick:  -380.00 -625.00
+\t (22:46:11) last pick:  -380.00 -625.00
+\i (22:46:11) mouse_pos -425.75 -844.01
+\i (22:46:11) zoom in 1 
+\i (22:46:11) setwindow pcb
+\i (22:46:11) zoom in -428.09 -853.35
+\i (22:46:11) trapsize 584
+\i (22:46:11) zoom in 1 
+\i (22:46:11) setwindow pcb
+\i (22:46:11) zoom in -422.25 -830.00
+\i (22:46:11) trapsize 292
+\i (22:46:11) mouse_pos -422.25 -830.00
+\i (22:46:11) mouse_pos -421.08 -797.31
+\i (22:46:11) mouse_pos -421.08 -775.13
+\i (22:46:12) zoom out 1 
+\i (22:46:12) setwindow pcb
+\i (22:46:12) zoom out -415.24 -704.49
+\i (22:46:12) trapsize 584
+\i (22:46:12) zoom out 1 
+\i (22:46:12) setwindow pcb
+\i (22:46:12) zoom out -415.24 -722.01
+\i (22:46:12) trapsize 1167
+\i (22:46:13) prepopup -475.95 -649.62
+\i (22:46:14) done 
+\i (22:46:14) add connect 
+\t (22:46:15) Pick first element.
+\i (22:46:15) pick grid -767.83 -616.93
+\t (22:46:15) last pick:  -770.00 -615.00
+\t (22:46:15) last pick:  -770.00 -615.00
+\i (22:46:17) prepopup -737.47 -556.22
+\i (22:46:17) done 
+\i (22:46:17) generaledit 
+\i (22:46:18) zoom in 1 
+\i (22:46:18) setwindow pcb
+\i (22:46:18) zoom in -613.72 -703.33
+\i (22:46:18) trapsize 584
+\i (22:46:18) prepopup -572.86 -688.15
+\i (22:46:19) pick grid -501.64 -667.14
+\t (22:46:19) last pick:  -500.00 -665.00
+\i (22:46:19) zoom out 1 
+\i (22:46:19) setwindow pcb
+\i (22:46:19) zoom out -760.82 -909.97
+\i (22:46:19) trapsize 1167
+\i (22:46:41) zoom out 1 
+\i (22:46:41) setwindow pcb
+\i (22:46:41) zoom out -375.55 -919.32
+\i (22:46:41) trapsize 2335
+\i (22:46:42) zoom in 1 
+\i (22:46:42) setwindow pcb
+\i (22:46:42) zoom in -184.10 -181.46
+\i (22:46:42) trapsize 1167
+\i (22:46:42) zoom in 1 
+\i (22:46:42) setwindow pcb
+\i (22:46:42) zoom in -186.43 -55.37
+\i (22:46:42) trapsize 584
+\i (22:46:42) zoom in 1 
+\i (22:46:42) setwindow pcb
+\i (22:46:42) zoom in -186.43 -55.37
+\i (22:46:42) trapsize 292
+\i (22:46:43) zoom out 1 
+\i (22:46:43) setwindow pcb
+\i (22:46:43) zoom out -233.12 -231.07
+\i (22:46:43) trapsize 584
+\i (22:46:44) zoom out 1 
+\i (22:46:44) setwindow pcb
+\i (22:46:44) zoom out -251.81 -228.74
+\i (22:46:44) trapsize 1167
+\t (22:56:01) Performing autosave...
+\t (22:56:01) Autosave successful
+\i (22:58:30) xhilite 
+\i (22:58:30) xrefdes J4.78 
+\i (22:58:30) xname_flush 
+\i (22:58:30) done 
+\i (22:58:30) xhilite 
+\i (22:58:30) xrefdes C2257.1 
+\i (22:58:30) xname_flush 
+\i (22:58:30) trapsize 36
+\t (22:58:30) Pin "C2257.1" highlighted.
+\i (22:58:30) done 
+\i (22:58:30) xhilite 
+\i (22:58:30) xrefdes J4.76 
+\i (22:58:30) xname_flush 
+\i (22:58:30) done 
+\i (22:58:31) xhilite 
+\i (22:58:31) xrefdes C2332.1 
+\i (22:58:31) xname_flush 
+\i (22:58:31) trapsize 55
+\t (22:58:31) Pin "C2332.1" highlighted.
+\i (22:58:31) done 
+\i (22:58:31) xhilite 
+\i (22:58:31) xrefdes J4.75 
+\i (22:58:31) xname_flush 
+\i (22:58:31) done 
+\i (22:58:31) xhilite 
+\i (22:58:31) xrefdes R2215.1 
+\i (22:58:31) xname_flush 
+\i (22:58:31) trapsize 36
+\t (22:58:31) Pin "R2215.1" highlighted.
+\i (22:58:31) done 
+\i (22:58:31) xhilite 
+\i (22:58:32) xrefdes J4.74 
+\i (22:58:32) xname_flush 
+\i (22:58:32) done 
+\i (22:58:32) xhilite 
+\i (22:58:32) xrefdes C1733.1 
+\i (22:58:32) xname_flush 
+\i (22:58:32) trapsize 36
+\t (22:58:32) Pin "C1733.1" highlighted.
+\i (22:58:32) done 
+\i (22:58:32) xhilite 
+\i (22:58:32) xrefdes C1035.1 
+\i (22:58:32) xname_flush 
+\i (22:58:32) trapsize 55
+\t (22:58:32) Pin "C1035.1" highlighted.
+\i (22:58:32) done 
+\i (22:58:33) xhilite 
+\i (22:58:33) xrefdes C1034.1 
+\i (22:58:33) xname_flush 
+\i (22:58:33) trapsize 55
+\t (22:58:33) Pin "C1034.1" highlighted.
+\i (22:58:33) done 
+\i (22:58:33) xhilite 
+\i (22:58:33) xrefdes R2300.2 
+\i (22:58:33) xname_flush 
+\i (22:58:33) trapsize 36
+\t (22:58:33) Pin "R2300.2" highlighted.
+\i (22:58:33) done 
+\i (22:58:33) xhilite 
+\i (22:58:33) xrefdes R2300.1 
+\i (22:58:33) xname_flush 
+\i (22:58:33) trapsize 36
+\t (22:58:33) Pin "R2300.1" highlighted.
+\i (22:58:33) done 
+\i (22:58:34) xhilite 
+\i (22:58:34) xrefdes C1003.1 
+\i (22:58:34) xname_flush 
+\i (22:58:34) trapsize 55
+\t (22:58:34) Pin "C1003.1" highlighted.
+\i (22:58:34) done 
+\i (22:58:34) xhilite 
+\i (22:58:34) xrefdes C2211.1 
+\i (22:58:34) xname_flush 
+\i (22:58:34) trapsize 55
+\t (22:58:34) Pin "C2211.1" highlighted.
+\i (22:58:34) done 
+\i (22:58:34) xhilite 
+\i (22:58:34) xrefdes J4.2 
+\i (22:58:34) xname_flush 
+\i (22:58:34) done 
+\i (22:58:34) xhilite 
+\i (22:58:35) xrefdes J4.1 
+\i (22:58:35) xname_flush 
+\i (22:58:35) done 
+\i (22:58:35) xhilite 
+\i (22:58:35) xrefdes U3800.R1 
+\i (22:58:35) xname_flush 
+\i (22:58:35) trapsize 19
+\t (22:58:35) Pin "U3800.R1" highlighted.
+\i (22:58:35) done 
+\i (22:58:35) xhilite 
+\i (22:58:35) xrefdes R3807.2 
+\i (22:58:35) xname_flush 
+\i (22:58:35) trapsize 16
+\t (22:58:35) Pin "R3807.2" highlighted.
+\i (22:58:35) done 
+\i (22:58:35) xhilite 
+\i (22:58:35) xrefdes U1000.P13 
+\i (22:58:35) xname_flush 
+\i (22:58:35) trapsize 19
+\t (22:58:35) Pin "U1000.P13" highlighted.
+\i (22:58:35) done 
+\i (22:58:36) xhilite 
+\i (22:58:36) xrefdes U1000.R12 
+\i (22:58:36) xname_flush 
+\i (22:58:36) trapsize 19
+\t (22:58:36) Pin "U1000.R12" highlighted.
+\i (22:58:36) done 
+\i (22:58:36) xhilite 
+\i (22:58:36) xrefdes U1000.Y21 
+\i (22:58:36) xname_flush 
+\i (22:58:36) trapsize 19
+\t (22:58:36) Pin "U1000.Y21" highlighted.
+\i (22:58:36) done 
+\i (22:58:36) xhilite 
+\i (22:58:36) xrefdes C1057.1 
+\i (22:58:36) xname_flush 
+\i (22:58:36) trapsize 28
+\t (22:58:36) Pin "C1057.1" highlighted.
+\i (22:58:36) done 
+\i (22:58:36) xhilite 
+\i (22:58:37) xrefdes U1000.W13 
+\i (22:58:37) xname_flush 
+\i (22:58:37) trapsize 19
+\t (22:58:37) Pin "U1000.W13" highlighted.
+\i (22:58:37) done 
+\i (22:58:37) xhilite 
+\i (22:58:37) xrefdes U1000.V12 
+\i (22:58:37) xname_flush 
+\i (22:58:37) trapsize 19
+\t (22:58:37) Pin "U1000.V12" highlighted.
+\i (22:58:37) done 
+\i (22:58:37) xhilite 
+\i (22:58:37) xrefdes U1000.AC22 
+\i (22:58:37) xname_flush 
+\i (22:58:37) trapsize 19
+\t (22:58:37) Pin "U1000.Ac22" highlighted.
+\i (22:58:37) done 
+\i (22:58:37) xhilite 
+\i (22:58:37) xrefdes U1000.AD23 
+\i (22:58:37) xname_flush 
+\i (22:58:37) trapsize 19
+\t (22:58:37) Pin "U1000.Ad23" highlighted.
+\i (22:58:37) done 
+\i (22:58:38) xhilite 
+\i (22:58:38) xrefdes U1000.P23 
+\i (22:58:38) xname_flush 
+\i (22:58:38) trapsize 19
+\t (22:58:38) Pin "U1000.P23" highlighted.
+\i (22:58:38) done 
+\i (22:58:38) xhilite 
+\i (22:58:38) xrefdes C1029.1 
+\i (22:58:38) xname_flush 
+\i (22:58:38) trapsize 26
+\t (22:58:38) Pin "C1029.1" highlighted.
+\i (22:58:38) done 
+\i (22:58:38) xhilite 
+\i (22:58:38) xrefdes C2257.1 
+\i (22:58:38) xname_flush 
+\i (22:58:38) trapsize 36
+\t (22:58:38) Pin "C2257.1" highlighted.
+\i (22:58:38) done 
+\i (22:58:39) xhilite 
+\i (22:58:39) xrefdes U2200.63 
+\i (22:58:39) xname_flush 
+\i (22:58:39) trapsize 49
+\t (22:58:39) Pin "U2200.63" highlighted.
+\i (22:58:39) done 
+\i (22:58:39) xhilite 
+\i (22:58:39) xrefdes C2332.1 
+\i (22:58:39) xname_flush 
+\i (22:58:39) trapsize 55
+\t (22:58:39) Pin "C2332.1" highlighted.
+\i (22:58:39) done 
+\i (22:58:39) xhilite 
+\i (22:58:39) xrefdes R4.1 
+\i (22:58:39) xname_flush 
+\i (22:58:39) done 
+\i (22:58:39) xhilite 
+\i (22:58:39) xrefdes C1908.1 
+\i (22:58:39) xname_flush 
+\i (22:58:39) trapsize 16
+\t (22:58:39) Pin "C1908.1" highlighted.
+\i (22:58:39) done 
+\i (22:58:40) xhilite 
+\i (22:58:40) xrefdes U1000.AC26 
+\i (22:58:40) xname_flush 
+\i (22:58:40) trapsize 19
+\t (22:58:40) Pin "U1000.Ac26" highlighted.
+\i (22:58:40) done 
+\i (22:58:40) xhilite 
+\i (22:58:40) xrefdes R2215.1 
+\i (22:58:40) xname_flush 
+\i (22:58:40) trapsize 36
+\t (22:58:40) Pin "R2215.1" highlighted.
+\i (22:58:40) done 
+\i (22:58:40) xhilite 
+\i (22:58:40) xrefdes U2200.25 
+\i (22:58:40) xname_flush 
+\i (22:58:40) trapsize 49
+\t (22:58:40) Pin "U2200.25" highlighted.
+\i (22:58:40) done 
+\i (22:58:41) xhilite 
+\i (22:58:41) xrefdes C1733.1 
+\i (22:58:41) xname_flush 
+\i (22:58:41) trapsize 36
+\t (22:58:41) Pin "C1733.1" highlighted.
+\i (22:58:41) done 
+\i (22:58:41) xhilite 
+\i (22:58:41) xrefdes U2200.58 
+\i (22:58:41) xname_flush 
+\i (22:58:41) trapsize 49
+\t (22:58:41) Pin "U2200.58" highlighted.
+\i (22:58:41) done 
+\i (22:58:41) xhilite 
+\i (22:58:41) xrefdes C2228.1 
+\i (22:58:41) xname_flush 
+\i (22:58:41) trapsize 36
+\t (22:58:41) Pin "C2228.1" highlighted.
+\i (22:58:41) done 
+\i (22:58:42) xhilite 
+\i (22:58:42) xrefdes C1035.1 
+\i (22:58:42) xname_flush 
+\i (22:58:42) trapsize 55
+\t (22:58:42) Pin "C1035.1" highlighted.
+\i (22:58:42) done 
+\i (22:58:42) xhilite 
+\i (22:58:42) xrefdes C2209.1 
+\i (22:58:42) xname_flush 
+\i (22:58:42) trapsize 55
+\t (22:58:42) Pin "C2209.1" highlighted.
+\i (22:58:42) done 
+\i (22:58:42) xhilite 
+\i (22:58:42) xrefdes C1003.1 
+\i (22:58:42) xname_flush 
+\i (22:58:42) trapsize 55
+\t (22:58:42) Pin "C1003.1" highlighted.
+\i (22:58:42) done 
+\i (22:58:42) xhilite 
+\i (22:58:42) xrefdes U3800.R1 
+\i (22:58:42) xname_flush 
+\i (22:58:42) trapsize 19
+\t (22:58:42) Pin "U3800.R1" highlighted.
+\i (22:58:43) done 
+\i (22:58:43) xhilite 
+\i (22:58:43) xrefdes C3816.1 
+\i (22:58:43) xname_flush 
+\i (22:58:43) trapsize 16
+\t (22:58:43) Pin "C3816.1" highlighted.
+\i (22:58:43) done 
+\i (22:58:43) xhilite 
+\i (22:58:43) xrefdes U2200.63 
+\i (22:58:43) xname_flush 
+\i (22:58:43) trapsize 49
+\t (22:58:43) Pin "U2200.63" highlighted.
+\i (22:58:43) done 
+\i (22:58:43) xhilite 
+\i (22:58:43) xrefdes C1410.1 
+\i (22:58:43) xname_flush 
+\i (22:58:43) trapsize 16
+\t (22:58:43) Pin "C1410.1" highlighted.
+\i (22:58:43) done 
+\i (22:58:44) xhilite 
+\i (22:58:44) xrefdes R4.1 
+\i (22:58:44) xname_flush 
+\i (22:58:44) done 
+\i (22:58:44) xhilite 
+\i (22:58:44) xrefdes U2305.1 
+\i (22:58:44) xname_flush 
+\i (22:58:44) trapsize 66
+\t (22:58:44) Pin "U2305.1" highlighted.
+\i (22:58:44) done 
+\i (22:58:44) xhilite 
+\i (22:58:44) xrefdes U2200.25 
+\i (22:58:44) xname_flush 
+\i (22:58:44) trapsize 49
+\t (22:58:44) Pin "U2200.25" highlighted.
+\i (22:58:44) done 
+\i (22:58:44) xhilite 
+\i (22:58:45) xrefdes L2208.1 
+\i (22:58:45) xname_flush 
+\i (22:58:45) trapsize 52
+\t (22:58:45) Pin "L2208.1" highlighted.
+\i (22:58:45) done 
+\i (22:58:45) xhilite 
+\i (22:58:45) xrefdes U2200.58 
+\i (22:58:45) xname_flush 
+\i (22:58:45) trapsize 52
+\t (22:58:45) Pin "U2200.58" highlighted.
+\i (22:58:45) done 
+\i (22:58:45) xhilite 
+\i (22:58:45) xrefdes C1907.1 
+\i (22:58:45) xname_flush 
+\i (22:58:45) trapsize 16
+\t (22:58:45) Pin "C1907.1" highlighted.
+\i (22:58:45) done 
+\i (22:58:45) xhilite 
+\i (22:58:45) xrefdes C2228.2 
+\i (22:58:45) xname_flush 
+\i (22:58:45) trapsize 36
+\t (22:58:45) Pin "C2228.2" highlighted.
+\i (22:58:45) done 
+\i (22:58:45) xhilite 
+\i (22:58:45) xrefdes C2228.1 
+\i (22:58:45) xname_flush 
+\i (22:58:45) trapsize 36
+\t (22:58:45) Pin "C2228.1" highlighted.
+\i (22:58:45) done 
+\i (22:58:46) xhilite 
+\i (22:58:46) xrefdes C1010.1 
+\i (22:58:46) xname_flush 
+\i (22:58:46) trapsize 16
+\t (22:58:46) Pin "C1010.1" highlighted.
+\i (22:58:46) done 
+\i (22:58:46) xhilite 
+\i (22:58:46) xrefdes U1000.T16 
+\i (22:58:46) xname_flush 
+\i (22:58:46) trapsize 19
+\t (22:58:46) Pin "U1000.T16" highlighted.
+\i (22:58:46) done 
+\i (22:58:46) xhilite 
+\i (22:58:46) xrefdes C2304.2 
+\i (22:58:46) xname_flush 
+\i (22:58:46) trapsize 36
+\t (22:58:46) Pin "C2304.2" highlighted.
+\i (22:58:46) done 
+\i (22:58:46) xhilite 
+\i (22:58:47) xrefdes U2300.A4 
+\i (22:58:47) xname_flush 
+\i (22:58:47) trapsize 16
+\t (22:58:47) Pin "U2300.A4" highlighted.
+\i (22:58:47) done 
+\i (22:58:47) xhilite 
+\i (22:58:47) xrefdes C2207.1 
+\i (22:58:47) xname_flush 
+\i (22:58:47) trapsize 58
+\t (22:58:47) Pin "C2207.1" highlighted.
+\i (22:58:47) done 
+\i (22:58:47) xhilite 
+\i (22:58:47) xrefdes C2209.1 
+\i (22:58:47) xname_flush 
+\i (22:58:47) trapsize 49
+\t (22:58:47) Pin "C2209.1" highlighted.
+\i (22:58:47) done 
+\i (22:58:47) xhilite 
+\i (22:58:47) xrefdes C2319.1 
+\i (22:58:47) xname_flush 
+\i (22:58:47) trapsize 55
+\t (22:58:47) Pin "C2319.1" highlighted.
+\i (22:58:47) done 
+\i (22:58:48) xhilite 
+\i (22:58:48) xrefdes C2212.1 
+\i (22:58:48) xname_flush 
+\i (22:58:48) trapsize 58
+\t (22:58:48) Pin "C2212.1" highlighted.
+\i (22:58:48) done 
+\i (22:58:48) xhilite 
+\i (22:58:48) xrefdes U3800.N3 
+\i (22:58:48) xname_flush 
+\i (22:58:48) trapsize 19
+\t (22:58:48) Pin "U3800.N3" highlighted.
+\i (22:58:48) done 
+\i (22:58:48) xhilite 
+\i (22:58:49) xrefdes U3800.N1 
+\i (22:58:49) xname_flush 
+\i (22:58:49) trapsize 19
+\t (22:58:49) Pin "U3800.N1" highlighted.
+\i (22:58:49) done 
+\i (22:58:49) xhilite 
+\i (22:58:49) xrefdes U1000.N13 
+\i (22:58:49) xname_flush 
+\i (22:58:49) trapsize 19
+\t (22:58:49) Pin "U1000.N13" highlighted.
+\i (22:58:49) done 
+\i (22:58:49) xhilite 
+\i (22:58:49) xrefdes C1224.1 
+\i (22:58:49) xname_flush 
+\i (22:58:49) trapsize 16
+\t (22:58:49) Pin "C1224.1" highlighted.
+\i (22:58:49) done 
+\i (22:58:49) xhilite 
+\i (22:58:50) xrefdes U1000.W21 
+\i (22:58:50) xname_flush 
+\i (22:58:50) trapsize 19
+\t (22:58:50) Pin "U1000.W21" highlighted.
+\i (22:58:50) done 
+\i (22:58:50) xhilite 
+\i (22:58:50) xrefdes C1071.1 
+\i (22:58:50) xname_flush 
+\i (22:58:50) trapsize 16
+\t (22:58:50) Pin "C1071.1" highlighted.
+\i (22:58:50) done 
+\i (22:58:50) xhilite 
+\i (22:58:50) xrefdes C1073.1 
+\i (22:58:50) xname_flush 
+\i (22:58:50) trapsize 16
+\t (22:58:50) Pin "C1073.1" highlighted.
+\i (22:58:50) done 
+\i (22:58:50) xhilite 
+\i (22:58:50) xrefdes U1000.AC23 
+\i (22:58:50) xname_flush 
+\i (22:58:50) trapsize 19
+\t (22:58:50) Pin "U1000.Ac23" highlighted.
+\i (22:58:50) done 
+\i (22:58:50) xhilite 
+\i (22:58:51) xrefdes U1000.N24 
+\i (22:58:51) xname_flush 
+\i (22:58:51) trapsize 19
+\t (22:58:51) Pin "U1000.N24" highlighted.
+\i (22:58:51) done 
+\i (22:58:51) xhilite 
+\i (22:58:51) xrefdes C1030.1 
+\i (22:58:51) xname_flush 
+\i (22:58:51) trapsize 28
+\t (22:58:51) Pin "C1030.1" highlighted.
+\i (22:58:51) done 
+\i (22:58:51) xhilite 
+\i (22:58:51) xrefdes C1410.1 
+\i (22:58:51) xname_flush 
+\i (22:58:51) trapsize 16
+\t (22:58:51) Pin "C1410.1" highlighted.
+\i (22:58:51) done 
+\i (22:58:51) xhilite 
+\i (22:58:51) xrefdes U1000.AJ10 
+\i (22:58:51) xname_flush 
+\i (22:58:51) trapsize 19
+\t (22:58:51) Pin "U1000.Aj10" highlighted.
+\i (22:58:51) done 
+\i (22:58:52) xhilite 
+\i (22:58:52) xrefdes L2208.1 
+\i (22:58:52) xname_flush 
+\i (22:58:52) trapsize 52
+\t (22:58:52) Pin "L2208.1" highlighted.
+\i (22:58:52) done 
+\i (22:58:52) xhilite 
+\i (22:58:52) xrefdes R2214.1 
+\i (22:58:52) xname_flush 
+\i (22:58:52) trapsize 36
+\t (22:58:52) Pin "R2214.1" highlighted.
+\i (22:58:52) done 
+\i (22:58:52) xhilite 
+\i (22:58:52) xrefdes C1907.1 
+\i (22:58:52) xname_flush 
+\i (22:58:52) trapsize 16
+\t (22:58:52) Pin "C1907.1" highlighted.
+\i (22:58:52) done 
+\i (22:58:53) xhilite 
+\i (22:58:53) xrefdes U1000.AJ20 
+\i (22:58:53) xname_flush 
+\i (22:58:53) trapsize 19
+\t (22:58:53) Pin "U1000.Aj20" highlighted.
+\i (22:58:53) done 
+\i (22:58:53) xhilite 
+\i (22:58:53) xrefdes C2228.2 
+\i (22:58:53) xname_flush 
+\i (22:58:53) trapsize 36
+\t (22:58:53) Pin "C2228.2" highlighted.
+\i (22:58:53) done 
+\i (22:58:53) xhilite 
+\i (22:58:53) xrefdes R2206.2 
+\i (22:58:53) xname_flush 
+\i (22:58:53) trapsize 36
+\t (22:58:53) Pin "R2206.2" highlighted.
+\i (22:58:54) done 
+\i (22:58:54) xhilite 
+\i (22:58:54) xrefdes C1010.1 
+\i (22:58:54) xname_flush 
+\i (22:58:54) trapsize 16
+\t (22:58:54) Pin "C1010.1" highlighted.
+\i (22:58:54) done 
+\i (22:58:54) xhilite 
+\i (22:58:54) xrefdes C1022.1 
+\i (22:58:54) xname_flush 
+\i (22:58:54) trapsize 16
+\t (22:58:54) Pin "C1022.1" highlighted.
+\i (22:58:54) done 
+\i (22:58:54) xhilite 
+\i (22:58:55) xrefdes C2304.1 
+\i (22:58:55) xname_flush 
+\i (22:58:55) trapsize 36
+\t (22:58:55) Pin "C2304.1" highlighted.
+\i (22:58:55) done 
+\i (22:58:55) xhilite 
+\i (22:58:55) xrefdes L2300.2 
+\i (22:58:55) xname_flush 
+\i (22:58:55) trapsize 89
+\t (22:58:55) Pin "L2300.2" highlighted.
+\i (22:58:55) done 
+\i (22:58:55) xhilite 
+\i (22:58:55) xrefdes C2208.1 
+\i (22:58:55) xname_flush 
+\i (22:58:55) trapsize 58
+\t (22:58:55) Pin "C2208.1" highlighted.
+\i (22:58:55) done 
+\i (22:58:55) xhilite 
+\i (22:58:55) xrefdes C2207.1 
+\i (22:58:55) xname_flush 
+\i (22:58:55) trapsize 58
+\t (22:58:55) Pin "C2207.1" highlighted.
+\i (22:58:55) done 
+\i (22:58:56) xhilite 
+\i (22:58:56) xrefdes C2212.1 
+\i (22:58:56) xname_flush 
+\i (22:58:56) trapsize 58
+\t (22:58:56) Pin "C2212.1" highlighted.
+\i (22:58:56) done 
+\i (22:58:56) xhilite 
+\i (22:58:56) xrefdes U2200.52 
+\i (22:58:56) xname_flush 
+\i (22:58:56) trapsize 49
+\t (22:58:56) Pin "U2200.52" highlighted.
+\i (22:58:56) done 
+\i (22:58:56) xhilite 
+\i (22:58:56) xrefdes C2300.1 
+\i (22:58:56) xname_flush 
+\i (22:58:57) trapsize 77
+\t (22:58:57) Pin "C2300.1" highlighted.
+\i (22:58:57) done 
+\i (22:58:57) xhilite 
+\i (22:58:57) xrefdes C2245.1 
+\i (22:58:57) xname_flush 
+\i (22:58:57) trapsize 55
+\t (22:58:57) Pin "C2245.1" highlighted.
+\i (22:58:57) done 
+\i (22:58:57) xhilite 
+\i (22:58:57) xrefdes C1225.1 
+\i (22:58:57) xname_flush 
+\i (22:58:57) trapsize 16
+\t (22:58:57) Pin "C1225.1" highlighted.
+\i (22:58:57) done 
+\i (22:58:57) xhilite 
+\i (22:58:57) xrefdes C1231.1 
+\i (22:58:57) xname_flush 
+\i (22:58:57) trapsize 16
+\t (22:58:57) Pin "C1231.1" highlighted.
+\i (22:58:57) done 
+\i (22:58:58) xhilite 
+\i (22:58:58) xrefdes C1227.1 
+\i (22:58:58) xname_flush 
+\i (22:58:58) trapsize 26
+\t (22:58:58) Pin "C1227.1" highlighted.
+\i (22:58:58) done 
+\i (22:58:58) xhilite 
+\i (22:58:58) xrefdes C2204.1 
+\i (22:58:58) xname_flush 
+\i (22:58:58) trapsize 49
+\t (22:58:58) Pin "C2204.1" highlighted.
+\i (22:58:58) done 
+\i (22:58:58) xhilite 
+\i (22:58:58) xrefdes C1049.1 
+\i (22:58:58) xname_flush 
+\i (22:58:58) trapsize 16
+\t (22:58:58) Pin "C1049.1" highlighted.
+\i (22:58:58) done 
+\i (22:58:59) xhilite 
+\i (22:58:59) xrefdes C1048.1 
+\i (22:58:59) xname_flush 
+\i (22:58:59) trapsize 16
+\t (22:58:59) Pin "C1048.1" highlighted.
+\i (22:58:59) done 
+\i (22:58:59) xhilite 
+\i (22:58:59) xrefdes U1000.AD22 
+\i (22:58:59) xname_flush 
+\i (22:58:59) trapsize 19
+\t (22:58:59) Pin "U1000.Ad22" highlighted.
+\i (22:58:59) done 
+\i (22:58:59) xhilite 
+\i (22:58:59) xrefdes C1069.1 
+\i (22:58:59) xname_flush 
+\i (22:58:59) trapsize 16
+\t (22:58:59) Pin "C1069.1" highlighted.
+\i (22:58:59) done 
+\i (22:58:59) xhilite 
+\i (22:59:00) xrefdes C1410.1 
+\i (22:59:00) xname_flush 
+\i (22:59:00) trapsize 16
+\t (22:59:00) Pin "C1410.1" highlighted.
+\i (22:59:00) done 
+\i (22:59:00) xhilite 
+\i (22:59:00) xrefdes U1000.AE5 
+\i (22:59:00) xname_flush 
+\i (22:59:00) trapsize 19
+\t (22:59:00) Pin "U1000.Ae5" highlighted.
+\i (22:59:00) done 
+\i (22:59:00) xhilite 
+\i (22:59:00) xrefdes U2301.E2 
+\i (22:59:00) xname_flush 
+\i (22:59:00) trapsize 16
+\t (22:59:00) Pin "U2301.E2" highlighted.
+\i (22:59:00) done 
+\i (22:59:00) xhilite 
+\i (22:59:00) xrefdes U2301.E1 
+\i (22:59:00) xname_flush 
+\i (22:59:00) trapsize 16
+\t (22:59:00) Pin "U2301.E1" highlighted.
+\i (22:59:00) done 
+\i (22:59:00) xhilite 
+\i (22:59:01) xrefdes U2301.E1 
+\i (22:59:01) xname_flush 
+\i (22:59:01) trapsize 16
+\t (22:59:01) Pin "U2301.E1" highlighted.
+\i (22:59:01) done 
+\i (22:59:01) xhilite 
+\i (22:59:01) xrefdes C2303.1 
+\i (22:59:01) xname_flush 
+\i (22:59:01) trapsize 77
+\t (22:59:01) Pin "C2303.1" highlighted.
+\i (22:59:01) done 
+\i (22:59:01) xhilite 
+\i (22:59:01) xrefdes C2314.1 
+\i (22:59:01) xname_flush 
+\i (22:59:01) trapsize 55
+\t (22:59:01) Pin "C2314.1" highlighted.
+\i (22:59:01) done 
+\i (22:59:01) xhilite 
+\i (22:59:01) xrefdes FB2300.1 
+\i (22:59:01) xname_flush 
+\i (22:59:01) trapsize 58
+\t (22:59:01) Pin "Fb2300.1" highlighted.
+\i (22:59:01) done 
+\i (22:59:02) xhilite 
+\i (22:59:02) xrefdes FB2300.1 
+\i (22:59:02) xname_flush 
+\i (22:59:02) trapsize 58
+\t (22:59:02) Pin "Fb2300.1" highlighted.
+\i (22:59:02) done 
+\i (22:59:02) xhilite 
+\i (22:59:02) xrefdes U1000.K24 
+\i (22:59:02) xname_flush 
+\i (22:59:02) trapsize 19
+\t (22:59:02) Pin "U1000.K24" highlighted.
+\i (22:59:02) done 
+\i (22:59:02) xhilite 
+\i (22:59:02) xrefdes U2301.A4 
+\i (22:59:02) xname_flush 
+\i (22:59:02) trapsize 16
+\t (22:59:02) Pin "U2301.A4" highlighted.
+\i (22:59:02) done 
+\i (22:59:02) xhilite 
+\i (22:59:02) xrefdes R2301.2 
+\i (22:59:02) xname_flush 
+\i (22:59:02) trapsize 36
+\t (22:59:02) Pin "R2301.2" highlighted.
+\i (22:59:02) done 
+\i (22:59:03) xhilite 
+\i (22:59:03) xrefdes U2301.E2 
+\i (22:59:03) xname_flush 
+\i (22:59:03) trapsize 16
+\t (22:59:03) Pin "U2301.E2" highlighted.
+\i (22:59:03) done 
+\i (22:59:03) xhilite 
+\i (22:59:03) xrefdes U2300.E1 
+\i (22:59:03) xname_flush 
+\i (22:59:03) trapsize 16
+\t (22:59:03) Pin "U2300.E1" highlighted.
+\i (22:59:03) done 
+\i (22:59:03) xhilite 
+\i (22:59:03) xrefdes U2301.D1 
+\i (22:59:03) xname_flush 
+\i (22:59:03) trapsize 16
+\t (22:59:03) Pin "U2301.D1" highlighted.
+\i (22:59:03) done 
+\i (22:59:03) xhilite 
+\i (22:59:04) xrefdes U2303.E2 
+\i (22:59:04) xname_flush 
+\i (22:59:04) trapsize 16
+\t (22:59:04) Pin "U2303.E2" highlighted.
+\i (22:59:04) done 
+\i (22:59:04) xhilite 
+\i (22:59:04) xrefdes U2301.D2 
+\i (22:59:04) xname_flush 
+\i (22:59:04) trapsize 16
+\t (22:59:04) Pin "U2301.D2" highlighted.
+\i (22:59:04) done 
+\i (22:59:04) xhilite 
+\i (22:59:04) xrefdes C2303.1 
+\i (22:59:04) xname_flush 
+\i (22:59:04) trapsize 77
+\t (22:59:04) Pin "C2303.1" highlighted.
+\i (22:59:04) done 
+\i (22:59:04) xhilite 
+\i (22:59:04) xrefdes U2303.E1 
+\i (22:59:04) xname_flush 
+\i (22:59:04) trapsize 16
+\t (22:59:04) Pin "U2303.E1" highlighted.
+\i (22:59:04) done 
+\i (22:59:05) xhilite 
+\i (22:59:05) xrefdes U2303.D1 
+\i (22:59:05) xname_flush 
+\i (22:59:05) trapsize 16
+\t (22:59:05) Pin "U2303.D1" highlighted.
+\i (22:59:05) done 
+\i (22:59:05) xhilite 
+\i (22:59:05) xrefdes R2301.1 
+\i (22:59:05) xname_flush 
+\i (22:59:05) trapsize 36
+\t (22:59:05) Pin "R2301.1" highlighted.
+\i (22:59:05) done 
+\i (22:59:05) xhilite 
+\i (22:59:05) xrefdes C2314.1 
+\i (22:59:05) xname_flush 
+\i (22:59:05) trapsize 55
+\t (22:59:05) Pin "C2314.1" highlighted.
+\i (22:59:05) done 
+\i (22:59:05) xhilite 
+\i (22:59:06) xrefdes U2301.A4 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 16
+\t (22:59:06) Pin "U2301.A4" highlighted.
+\i (22:59:06) done 
+\i (22:59:06) xhilite 
+\i (22:59:06) xrefdes L2301.2 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 89
+\t (22:59:06) Pin "L2301.2" highlighted.
+\i (22:59:06) done 
+\i (22:59:06) xhilite 
+\i (22:59:06) xrefdes R2301.1 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 36
+\t (22:59:06) Pin "R2301.1" highlighted.
+\i (22:59:06) done 
+\i (22:59:06) xhilite 
+\i (22:59:06) xrefdes C2313.1 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 55
+\t (22:59:06) Pin "C2313.1" highlighted.
+\i (22:59:06) done 
+\i (22:59:06) xhilite 
+\i (22:59:06) xrefdes U2301.A4 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 16
+\t (22:59:06) Pin "U2301.A4" highlighted.
+\i (22:59:06) done 
+\i (22:59:06) xhilite 
+\i (22:59:06) xrefdes C2310.2 
+\i (22:59:06) xname_flush 
+\i (22:59:06) trapsize 36
+\t (22:59:06) Pin "C2310.2" highlighted.
+\i (22:59:06) done 
+\i (22:59:07) generaledit 
+\i (22:59:12) xhilite 
+\i (22:59:12) xrefdes C2310.1 
+\i (22:59:12) xname_flush 
+\i (22:59:12) trapsize 36
+\t (22:59:12) Pin "C2310.1" highlighted.
+\i (22:59:12) done 
+\i (22:59:13) xhilite 
+\i (22:59:13) xrefdes L2301.2 
+\i (22:59:13) xname_flush 
+\i (22:59:13) trapsize 89
+\t (22:59:13) Pin "L2301.2" highlighted.
+\i (22:59:13) done 
+\i (22:59:13) generaledit 
+\i (22:59:20) xhilite 
+\i (22:59:20) xrefdes C2310.1 
+\i (22:59:20) xname_flush 
+\i (22:59:20) trapsize 36
+\t (22:59:20) Pin "C2310.1" highlighted.
+\i (22:59:20) done 
+\i (22:59:20) xhilite 
+\i (22:59:21) xrefdes C2313.1 
+\i (22:59:21) xname_flush 
+\i (22:59:21) trapsize 55
+\t (22:59:21) Pin "C2313.1" highlighted.
+\i (22:59:21) done 
+\i (22:59:21) generaledit 
+\i (22:59:33) xhilite 
+\i (22:59:33) xrefdes C2311.1 
+\i (22:59:33) xname_flush 
+\i (22:59:33) trapsize 55
+\t (22:59:33) Pin "C2311.1" highlighted.
+\i (22:59:33) done 
+\i (22:59:33) xhilite 
+\i (22:59:33) xrefdes FB2300.1 
+\i (22:59:33) xname_flush 
+\i (22:59:33) trapsize 58
+\t (22:59:33) Pin "Fb2300.1" highlighted.
+\i (22:59:33) done 
+\i (22:59:33) xhilite 
+\i (22:59:34) xrefdes C2310.1 
+\i (22:59:34) xname_flush 
+\i (22:59:34) trapsize 36
+\t (22:59:34) Pin "C2310.1" highlighted.
+\i (22:59:34) done 
+\i (22:59:34) xhilite 
+\i (22:59:34) xrefdes C2314.1 
+\i (22:59:34) xname_flush 
+\i (22:59:34) trapsize 55
+\t (22:59:34) Pin "C2314.1" highlighted.
+\i (22:59:34) done 
+\i (22:59:34) generaledit 
+\i (22:59:40) xhilite 
+\i (22:59:40) xrefdes C2314.1 
+\i (22:59:40) xname_flush 
+\i (22:59:40) trapsize 55
+\t (22:59:40) Pin "C2314.1" highlighted.
+\i (22:59:40) done 
+\i (22:59:40) xhilite 
+\i (22:59:40) xrefdes C2313.1 
+\i (22:59:40) xname_flush 
+\i (22:59:40) trapsize 55
+\t (22:59:40) Pin "C2313.1" highlighted.
+\i (22:59:41) done 
+\i (22:59:41) generaledit 
+\i (23:00:10) xhilite 
+\i (23:00:10) xrefdes L2301.2 
+\i (23:00:10) xname_flush 
+\i (23:00:10) trapsize 89
+\t (23:00:10) Pin "L2301.2" highlighted.
+\i (23:00:10) done 
+\i (23:00:10) xhilite 
+\i (23:00:10) xrefdes C2314.1 
+\i (23:00:10) xname_flush 
+\i (23:00:10) trapsize 55
+\t (23:00:10) Pin "C2314.1" highlighted.
+\i (23:00:10) done 
+\i (23:00:11) xhilite 
+\i (23:00:11) xrefdes L2301.2 
+\i (23:00:11) xname_flush 
+\i (23:00:11) trapsize 89
+\t (23:00:11) Pin "L2301.2" highlighted.
+\i (23:00:11) done 
+\i (23:00:11) xhilite 
+\i (23:00:11) xrefdes C2310.2 
+\i (23:00:11) xname_flush 
+\i (23:00:11) trapsize 36
+\t (23:00:11) Pin "C2310.2" highlighted.
+\i (23:00:11) done 
+\i (23:00:11) generaledit 
+\i (23:00:14) xhilite 
+\i (23:00:14) xrefdes C2312.1 
+\i (23:00:14) xname_flush 
+\i (23:00:14) trapsize 55
+\t (23:00:14) Pin "C2312.1" highlighted.
+\i (23:00:14) done 
+\i (23:00:14) xhilite 
+\i (23:00:14) xrefdes FB2300.1 
+\i (23:00:14) xname_flush 
+\i (23:00:14) trapsize 58
+\t (23:00:14) Pin "Fb2300.1" highlighted.
+\i (23:00:14) done 
+\i (23:00:14) generaledit 
+\i (23:00:54) xhilite 
+\i (23:00:54) xrefdes U2301.D1 
+\i (23:00:54) xname_flush 
+\i (23:00:54) trapsize 16
+\t (23:00:54) Pin "U2301.D1" highlighted.
+\i (23:00:54) done 
+\i (23:00:54) xhilite 
+\i (23:00:54) xrefdes U2300.E2 
+\i (23:00:54) xname_flush 
+\i (23:00:54) trapsize 16
+\t (23:00:54) Pin "U2300.E2" highlighted.
+\i (23:00:54) done 
+\i (23:00:55) xhilite 
+\i (23:00:55) xrefdes R2301.2 
+\i (23:00:55) xname_flush 
+\i (23:00:55) trapsize 36
+\t (23:00:55) Pin "R2301.2" highlighted.
+\i (23:00:55) done 
+\i (23:00:55) xhilite 
+\i (23:00:55) xrefdes FB2300.1 
+\i (23:00:55) xname_flush 
+\i (23:00:55) trapsize 58
+\t (23:00:55) Pin "Fb2300.1" highlighted.
+\i (23:00:55) done 
+\i (23:00:55) generaledit 
+\i (23:02:46) xhilite 
+\i (23:02:46) xrefdes C2302.1 
+\i (23:02:46) xname_flush 
+\i (23:02:46) trapsize 77
+\t (23:02:46) Pin "C2302.1" highlighted.
+\i (23:02:46) done 
+\i (23:02:46) xhilite 
+\i (23:02:47) xrefdes U2300.E2 
+\i (23:02:47) xname_flush 
+\i (23:02:47) trapsize 16
+\t (23:02:47) Pin "U2300.E2" highlighted.
+\i (23:02:47) done 
+\i (23:02:47) generaledit 
+\i (23:03:54) xhilite 
+\i (23:03:54) xrefdes C2315 
+\i (23:03:54) xname_flush 
+\i (23:03:54) trapsize 83
+\t (23:03:54) Symbol "C2315" highlighted.
+\i (23:03:54) done 
+\i (23:03:54) xhilite 
+\i (23:03:54) xrefdes C2312 
+\i (23:03:54) xname_flush 
+\i (23:03:54) trapsize 83
+\t (23:03:54) Symbol "C2312" highlighted.
+\i (23:03:54) done 
+\i (23:03:54) generaledit 
+\i (23:03:55) xhilite 
+\i (23:03:55) xrefdes C2313 
+\i (23:03:55) xname_flush 
+\i (23:03:55) trapsize 83
+\t (23:03:55) Symbol "C2313" highlighted.
+\i (23:03:55) done 
+\i (23:03:55) generaledit 
+\i (23:03:55) xhilite 
+\i (23:03:55) xrefdes C2314 
+\i (23:03:55) xname_flush 
+\i (23:03:55) trapsize 83
+\t (23:03:55) Symbol "C2314" highlighted.
+\i (23:03:55) done 
+\i (23:03:55) xhilite 
+\i (23:03:56) xrefdes C2311 
+\i (23:03:56) xname_flush 
+\i (23:03:56) trapsize 83
+\t (23:03:56) Symbol "C2311" highlighted.
+\i (23:03:56) done 
+\i (23:03:56) xhilite 
+\i (23:03:56) xrefdes L2301 
+\i (23:03:56) xname_flush 
+\i (23:03:56) trapsize 197
+\t (23:03:56) Symbol "L2301" highlighted.
+\i (23:03:56) done 
+\i (23:03:56) xhilite 
+\i (23:03:56) xrefdes C2310 
+\i (23:03:56) xname_flush 
+\i (23:03:56) trapsize 55
+\t (23:03:56) Symbol "C2310" highlighted.
+\i (23:03:56) done 
+\i (23:03:56) xhilite 
+\i (23:03:56) xrefdes R2301 
+\i (23:03:56) xname_flush 
+\i (23:03:56) trapsize 55
+\t (23:03:56) Symbol "R2301" highlighted.
+\i (23:03:56) done 
+\i (23:03:57) generaledit 
+\i (23:03:57) xhilite 
+\i (23:03:57) xrefdes U2301 
+\i (23:03:57) xname_flush 
+\i (23:03:57) trapsize 82
+\t (23:03:57) Symbol "U2301" highlighted.
+\i (23:03:57) done 
+\i (23:03:57) xhilite 
+\i (23:03:57) xrefdes C2302 
+\i (23:03:57) xname_flush 
+\i (23:03:57) trapsize 104
+\t (23:03:57) Symbol "C2302" highlighted.
+\i (23:03:57) done 
+\i (23:03:58) generaledit 
+\i (23:03:58) xhilite 
+\i (23:03:58) xrefdes C2303 
+\i (23:03:58) xname_flush 
+\i (23:03:58) trapsize 104
+\t (23:03:58) Symbol "C2303" highlighted.
+\i (23:03:58) done 
+\i (23:03:58) generaledit 
+\i (23:05:57) zoom out 1 
+\i (23:05:57) setwindow pcb
+\i (23:05:57) zoom out -573.33 -1772.82
+\i (23:05:57) trapsize 208
+\i (23:05:57) zoom out 1 
+\i (23:05:57) setwindow pcb
+\i (23:05:57) zoom out -594.57 -1795.31
+\i (23:05:57) trapsize 417
+\i (23:05:57) zoom out 1 
+\i (23:05:57) setwindow pcb
+\i (23:05:57) zoom out -620.40 -1828.64
+\i (23:05:57) trapsize 833
+\i (23:05:57) zoom out 1 
+\i (23:05:57) setwindow pcb
+\i (23:05:57) zoom out -633.73 -1845.30
+\i (23:05:57) trapsize 1666
+\i (23:05:58) zoom out 1 
+\i (23:05:58) setwindow pcb
+\i (23:05:58) zoom out -1553.57 -2008.60
+\i (23:05:58) trapsize 3333
+\i (23:05:59) zoom in 1 
+\i (23:05:59) setwindow pcb
+\i (23:05:59) zoom in -453.77 -1075.43
+\i (23:05:59) trapsize 1666
+\i (23:05:59) zoom in 1 
+\i (23:05:59) setwindow pcb
+\i (23:05:59) zoom in -453.77 -1085.42
+\i (23:05:59) trapsize 833
+\i (23:05:59) zoom in 1 
+\i (23:05:59) setwindow pcb
+\i (23:05:59) zoom in -387.11 -1210.39
+\i (23:05:59) trapsize 417
+\i (23:06:00) zoom out 1 
+\i (23:06:00) setwindow pcb
+\i (23:06:00) zoom out -127.99 -1512.00
+\i (23:06:00) trapsize 833
+\i (23:06:00) zoom out 1 
+\i (23:06:00) setwindow pcb
+\i (23:06:00) zoom out -131.32 -1515.34
+\i (23:06:00) trapsize 1666
+\i (23:06:01) zoom in 1 
+\i (23:06:01) setwindow pcb
+\i (23:06:01) zoom in -227.98 -1282.04
+\i (23:06:01) trapsize 833
+\w (23:06:01) Save Pending
+\i (23:06:03) setwindow form.vf_vis
+\i (23:06:03) FORM vf_vis colorview_list Film: TOP 
+\i (23:06:04) setwindow pcb
+\i (23:06:04) zoom out 1 
+\i (23:06:04) setwindow pcb
+\i (23:06:04) zoom out -702.90 -928.77
+\i (23:06:04) trapsize 1666
+\i (23:06:04) zoom in 1 
+\i (23:06:04) setwindow pcb
+\i (23:06:04) zoom in -479.60 -1635.31
+\i (23:06:04) trapsize 833
+\i (23:06:05) zoom in 1 
+\i (23:06:05) setwindow pcb
+\i (23:06:05) zoom in -497.93 -1670.30
+\i (23:06:05) trapsize 417
+\i (23:06:06) zoom in 1 
+\i (23:06:06) setwindow pcb
+\i (23:06:06) zoom in -682.07 -1626.14
+\i (23:06:06) trapsize 208
+\i (23:06:07) zoom out 1 
+\i (23:06:07) setwindow pcb
+\i (23:06:07) zoom out -658.32 -1557.82
+\i (23:06:07) trapsize 417
+\i (23:06:07) zoom out 1 
+\i (23:06:07) setwindow pcb
+\i (23:06:07) zoom out -658.32 -1560.32
+\i (23:06:07) trapsize 833
+\i (23:06:08) zoom in 1 
+\i (23:06:08) setwindow pcb
+\i (23:06:08) zoom in -661.66 -1640.30
+\i (23:06:08) trapsize 417
+\i (23:06:10) zoom out 1 
+\i (23:06:10) setwindow pcb
+\i (23:06:10) zoom out -673.32 -1658.63
+\i (23:06:10) trapsize 833
+\i (23:06:12) zoom in 1 
+\i (23:06:12) setwindow pcb
+\i (23:06:12) zoom in -143.42 -1615.31
+\i (23:06:12) trapsize 417
+\i (23:06:17) zoom in 1 
+\i (23:06:17) setwindow pcb
+\i (23:06:17) zoom in -203.41 -1606.15
+\i (23:06:17) trapsize 208
+\i (23:06:18) zoom out 1 
+\i (23:06:18) setwindow pcb
+\i (23:06:18) zoom out -266.73 -1593.65
+\i (23:06:18) trapsize 417
+\i (23:06:19) zoom out 1 
+\i (23:06:19) setwindow pcb
+\i (23:06:19) zoom out -261.73 -1573.65
+\i (23:06:19) trapsize 833
+\i (23:06:28) zoom in 1 
+\i (23:06:28) setwindow pcb
+\i (23:06:28) zoom in -456.68 -1432.01
+\i (23:06:28) trapsize 417
+\i (23:06:32) zoom out 1 
+\i (23:06:32) setwindow pcb
+\i (23:06:32) zoom out -391.69 -1547.83
+\i (23:06:32) trapsize 833
+\i (23:06:34) FP_Open 
+\e (23:06:34) Do you want to save the changes you made to RK_EVB7_RK3588_LP4XD200P232SD8_V11_20230111YWQ.brd?
+\i (23:06:36) fillin no 
+\e (23:06:39) Finish current command first.
+\e (23:06:44) Finish current command first.
+\e (23:06:49) Finish current command first.
+\i (23:06:53) fillin "F:\Cadence\WORK\02_RK3588\TM_M1C_MB_PCB_V1.0.brd"
+\i (23:06:53) cd "F:\Cadence\WORK\02_RK3588"
+\t (23:06:53) Opening existing design...
+\i (23:06:53) trapsize 17783
+\t (23:06:53)     Journal end - Tue Mar 28 13:56:21 2023

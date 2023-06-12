@@ -1,0 +1,134 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S008 (3870700) [6/25/2020]-[03/14/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File
+       ".\rk3588s_template_lp4xd556p164sd10h2_33x33_2133mhz_h1r0_v10_20220315wf.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "86135")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         ".\rk3588s_template_lp4xd556p164sd10h2_33x33_2133mhz_h1r0_v10_20220315wf.dsn")
+      (Path "Design Resources"
+         ".\rk3588s_template_lp4xd556p164sd10h2_33x33_2133mhz_h1r0_v10_20220315wf.dsn"
+         "RK3588S_Tablet_REF")
+      (Select "Design Resources"
+         ".\rk3588s_template_lp4xd556p164sd10h2_33x33_2133mhz_h1r0_v10_20220315wf.dsn"
+         "RK3588S_Tablet_REF" "13.RK3588S Flash/SD Controller"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 317 0 543"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "-102 -1")
+        (Zoom "43")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "12.RK3588S DDR Controler"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "0 0")
+        (Zoom "60")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "37.DRAM-LPDDR4X_556P_1X64bit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "1123 83")
+        (Zoom "172")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "15.RK3588S_SARADC/1.8V GPIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "1402 535")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "16.RK3588S_MIPI Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "1120 398")
+        (Zoom "172")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "18.RK3588S PCIE2/SATA3/USB3 PHY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "1717 123")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "22.Power-PMIC_RK806-1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "1708 1344")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "13.RK3588S Flash/SD Controller"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 952 28 565")
+        (Scroll "4688 1570")
+        (Zoom "240")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\86135\DESKTOP\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ\1R0\RK3588S_TEMPLATE_LP4XD556P164SD10H2_33X33_2133MHZ_H1R0_V10_20220315WF.DSN")
+      (Schematic "RK3588S_Tablet_REF")
+      (Page "19.RK3588S GPIO"))))
