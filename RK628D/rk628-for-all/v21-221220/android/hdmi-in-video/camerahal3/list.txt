@@ -1,0 +1,57 @@
+该补丁包适用于camerahal3架构，内核共用。
+补丁列表：
+patch_camerahal3-v11-210730
+├── device
+│   └── rockchip
+│       └── common
+│           └── 0001-ueventd.rockchip.rc-modify-the-dev-v4l-subdev-permis.patch
+├── hardware
+│   └── rockchip
+│       └── camera
+│           ├── 0001-Add-rk628-configuration-for-each-platform.patch
+│           ├── 0002-Add-tc35874x-configuration-for-each-platform.patch
+│           ├── 0003-etc-add-v4l2-ctl-media-ctl-tools.patch
+│           └── 0004-reduce-camera-disconnect-timeout-to-500ms.patch
+├── RKDocs
+│   └── common
+│       ├── 0001-add-hdmi-in-apk-based-on-camerahal3.patch
+│       ├── 0002-hdmi-in-update-development-guide-document.patch
+│       ├── 0003-hdmi-in-add-hdmi-in-apk-based-on-camerahal1.patch
+│       └── 0004-HDMI-IN-Upgrade-Development-Guide-Document-Version.patch
+└── tags_name.txt
+
+8 directories, 10 files
+
+补丁相关的源码列表：
+src_camerahal3-v11-210730
+├── device
+│   └── rockchip
+│       └── common
+│           └── ueventd.rockchip.rc
+├── filename.txt
+├── filepath.txt
+├── grepname.txt
+├── hardware
+│   └── rockchip
+│       └── camera
+│           └── etc
+│               ├── camera
+│               │   ├── camera3_profiles_rk3288.xml
+│               │   ├── camera3_profiles_rk3326.xml
+│               │   ├── camera3_profiles_rk3368.xml
+│               │   ├── camera3_profiles_rk3399pro.xml
+│               │   └── camera3_profiles_rk3399.xml
+│               ├── camera_etc.mk
+│               └── tools
+│                   ├── media-ctl
+│                   └── v4l2-ctl
+└── RKDocs
+    └── common
+        └── hdmi-in
+            ├── apk
+            │   ├── HdmiInDemo_based_on_CameraHal1_2020.06.11_v1.2.tar.gz
+            │   └── rkCamera2_based_on_CameraHal3_V1.3.tar.gz
+            ├── Rockchip_Developer_Guide_HDMI_IN_Based_On_CameraHal1_CN.pdf
+            └── Rockchip_Developer_Guide_HDMI_IN_Based_On_CameraHal3_CN.pdf
+
+13 directories, 16 files

@@ -1,0 +1,21 @@
+v10-210709：支持rk628-for-all驱动；
+v10-210715：支持rk628-for-all驱动、android 9.0 hal3修改；
+v11-210725：支持rk628-for-all驱动、android 9.0 hal3修改、android 7.1 hal1修改；
+v11-210730：支持rk628-for-all驱动、android hal3修改、android hal1 isp3.1修改, android hal1 isp2.4修改。
+v12-210809：修复一些drivers/media/部分的一些BUG。
+v12-210813：修复一些drivers/media/i2c/rk628和drivers/misc/rk628部分的一些BUG。
+v12-210818：修复drivers/misc/的显示部分BUG。
+v13-210828：支持双RK628，MEDIA部分增加24M控制，初步支持HDMI2DSI、HDMI2LVDS、HDMI2GVI功能。
+v13-210903：修复一些drivers/media/i2c/rk628的BUG。
+v14-210910：支持RK SOC的DSI接CSI方案，解决CSI色偏问题，也修复了其他几个小BUG。
+v14-210918：解决少部分的BUG。
+v15-210926：新增audio部分的ANDROID补丁包，解决RK628驱动在KERNEL3.10的部分兼容性问题。
+v15-211008：misc代码借助drm代码支持hdmi out功能支持。
+v16-211025：misc代码支持休眠唤醒接口，待机低功耗。
+v16-211103：增加ANDROID10版本HDMI2GVI的PQ调整方案，支持pinctrl功能支持，增加部分DTS范例。
+v17-211126：新增ANDROID9版本的HDMI2GVI的PQ调整方案，增加 hdmirx的edid自动生成功能，增加部分DTS范例。
+v18-220115：新增BT1120功能支持和优化RK628显示出图的速度，即RGB2DSI/LVDS/GVI 4S出图，HDMI2GVI/LVDS 5秒出图，HDMI2DSI 6S出图。
+v19-220305：MISC代码支持多个RK628显示输出，并更新文档。
+v19-220410：解决MEDIA的少量BUG，更新部分DTS和文档。
+v20-220520：解决MEDIA的部分BUG，兼容KERNEL 5.10。
+v20-220521：修复少部分BUG并新增调试功能，新增BT1120转CSI和BT1120转HDMI功能。

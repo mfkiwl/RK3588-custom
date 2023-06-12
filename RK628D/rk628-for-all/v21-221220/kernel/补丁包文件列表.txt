@@ -1,0 +1,319 @@
+该补丁包适用于支持rk628各类转换口驱动，支持camerahal3，camerahal1-isplib-2.4，camerahal1-isplib-3.1架构。
+补丁列表：
+patch_rk628-for-all-kernel-v21-221220
+├── kernel
+│   ├── 0001-regmap-debugfs-Allow-register-writes-through-debugfs.patch
+│   ├── 0002-ARM-rockchip_defconfig-Set-CONFIG_ANDROID_VERSION-to.patch
+│   ├── 0003-Revert-ARM-rockchip_defconfig-enable-CONFIG_MFD_RK62.patch
+│   ├── 0004-misc-Add-driver-for-rk628.patch
+│   ├── 0005-misc-rk628-Add-cru-driver.patch
+│   ├── 0006-misc-add-rk628-config.patch
+│   ├── 0007-misc-rk628-add-post-process-driver.patch
+│   ├── 0008-misc-rk628-add-combrxphy-driver.patch
+│   ├── 0009-misc-rk628-add-hdmirx-driver.patch
+│   ├── 0010-misc-rk628-add-display-process.patch
+│   ├── 0011-misc-rk628-add-combtxphy-driver.patch
+│   ├── 0012-misc-rk628-add-dsi-driver.patch
+│   ├── 0013-ARM-dts-rockchip-Add-support-for-rk3288-evb-rk628-mi.patch
+│   ├── 0014-misc-rk628-add-dsi-lvds-panel-config-info.patch
+│   ├── 0015-misc-rk628-add-rgb-lvds-driver.patch
+│   ├── 0016-misc-rk628-cru-add-get-rate-of-sclk_vop.patch
+│   ├── 0017-misc-rk628-combtxphy-fix-driver-err.patch
+│   ├── 0018-misc-rk628-post_process-make-hsync-vsync-pol-adjust.patch
+│   ├── 0019-misc-rk628-add-surport-gvi.patch
+│   ├── 0020-ARM-dts-rockchip-Add-support-for-rk3288-evb-rk628-mi.patch
+│   ├── 0021-UPSTREAM-clk-Add-devm_-clk_get_optional-functions.patch
+│   ├── 0022-arch-arm-dts-misc-make-rgb-hsync-vsync-N-polarity-de.patch
+│   ├── 0023-misc-rk628-add-csi-support.patch
+│   ├── 0024-Revert-ARM-rockchip_defconfig-enable-CONFIG_VIDEO_RK.patch
+│   ├── 0025-media-i2c-add-rk628-video.patch
+│   ├── 0026-ARM-dts-rockchip-add-rk3288-evb-rk628-i2c-hdmi2csi.patch
+│   ├── 0027-media-i2c-rk628-add-node-resolution-and-streamen-to-.patch
+│   ├── 0028-media-i2c-rk628-add-rk628_hdmirx.h.patch
+│   ├── 0029-media-i2c-rk628-add-hdmi-to-bt1120-support.patch
+│   ├── 0030-media-i2c-rk628-add-rk628_v4l2_controls.h.patch
+│   ├── 0031-media-i2c-rk628-compatible-with-MCU-mode.patch
+│   ├── 0032-media-i2c-rk628-add-hdcp-support-for-csi_v4l2.patch
+│   ├── 0033-media-i2c-rk628-fix-division-by-zero.patch
+│   ├── 0034-media-i2c-rk628-the-combrxphy-cable-mode-wait-for-cl.patch
+│   ├── 0035-media-i2c-rk628-provider-a-clock-for-hdmirx-after-ph.patch
+│   ├── 0036-media-i2c-rk628-fix-phy-lock-fail.patch
+│   ├── 0037-media-i2c-rk628-detect-resolution-changes-as-quickly.patch
+│   ├── 0038-media-i2c-rk628-media-i2c-rk628-fix-den-error-when-h.patch
+│   ├── 0039-media-i2c-rk628csi-fix-audio-issues.patch
+│   ├── 0040-media-i2c-rk628-add-regmap-support.patch
+│   ├── 0041-media-i2c-rk628csi-workround-avi-packet-probabitity-.patch
+│   ├── 0042-ARM-rockchip_defconfig-enable-CONFIG_VIDEO_RK628.patch
+│   ├── 0043-media-rk628-add-cru-control-reset-function.patch
+│   ├── 0044-media-rk628-for-all-add-reset-conrtol.patch
+│   ├── 0045-media-rk628-for-all-fix-audio-L-R-channel-switch-whe.patch
+│   ├── 0046-media-for-all-add-hdcp-support.patch
+│   ├── 0047-media-rk628-for-all-fix-division-by-zero.patch
+│   ├── 0048-media-rk628-for-all-detect-resolution-changes-as-qui.patch
+│   ├── 0049-media-rk628-for-all-media-i2c-rk628-fix-den-error-wh.patch
+│   ├── 0050-media-rk628-for-all-audio-and-video-output-at-the-sa.patch
+│   ├── 0051-media-rk628-for-all-csi_v4l2-fix-the-issue-of-no-dis.patch
+│   ├── 0052-media-rk628-for-all-support-for-kernel-4.19.patch
+│   ├── 0053-add-rk628-dts-demo-for-rk3399-ind-used-for-hdmi2csi-.patch
+│   ├── 0054-misc-rk628-gvi-correcting-potential-compilation-erro.patch
+│   ├── 0055-media-rk628-for-all-bt1120-fix-diaplay-error.patch
+│   ├── 0056-media-rk628-for-all-irq-flags-get-from-dts.patch
+│   ├── 0057-media-rk628-for-all-set-regmap-endian-to-REGMAP_ENDI.patch
+│   ├── 0058-media-rk628-for-all-solve-compilation-problem.patch
+│   ├── 0059-media-rk628-for-all-modify-edid.patch
+│   ├── 0060-media-rk628-for-all-add-clk-mux-for-test-pin-out.patch
+│   ├── 0061-media-rk628-for-all-rk628_csi-fix-audio-issues.patch
+│   ├── 0062-media-rk628-for-all-rk628_bt1120_v4l2-fix-audio-issu.patch
+│   ├── 0063-media-rk628-for-all-fix-vfront_porch-set-error-value.patch
+│   ├── 0064-media-rk628-for-all-csi_v4l2-and-bt1120_v4l2-depend-.patch
+│   ├── 0065-media-rk628-for-all-rk628_hdmirx-add-common-audio-pr.patch
+│   ├── 0066-media-rk628-for-all-fix-no-sound-when-no-valid-fs_au.patch
+│   ├── 0067-media-rk628-for-all-use-common-audio-process-codes.patch
+│   ├── 0068-media-rk628-for-all-set-hdmi-mode-to-automatitc.patch
+│   ├── 0069-media-rk628-for-all-delay-detect-hotplug.patch
+│   ├── 0070-misc-rk628-dsi-confirm-phy-lock-befor-more-operation.patch
+│   ├── 0071-ARM-dts-rockchip-redefine-rk628-board-level-informat.patch
+│   ├── 0072-misc-rk628-add-more-detailed-for-lvds.patch
+│   ├── 0073-media-rk628-for-all-optimized-code.patch
+│   ├── 0074-media-rk628-for-all-add-direct-mode-support.patch
+│   ├── 0075-media-i2c-rk628-compatible-with-MCU-mode.patch
+│   ├── 0076-misc-rk628-dsi-solve-the-error-of-sending-initializa.patch
+│   ├── 0077-media-rk628-for-all-txphy-remove-global-variable.patch
+│   ├── 0078-media-rk628-for-all-add-24M-clock-supported-by-soc.patch
+│   ├── 0079-media-rk628-for-all-add-log-for-RK628-mode.patch
+│   ├── 0080-media-rk628-for-all-add-log-for-hdmirx-phy-detect-st.patch
+│   ├── 0081-misc-rk628-Use-general-interface-to-avoid-compilatio.patch
+│   ├── 0082-ARM-dts-rockchip-Add-support-for-rk3288-evb-rk628-mi.patch
+│   ├── 0083-add-rk3399-hdmi2csi-and-hdmi2dsi-dts-demo.patch
+│   ├── 0084-media-rk628-for-all-bypass-level-detection-anomaly.patch
+│   ├── 0085-media-rk628-for-all-ignore-character-error-detection.patch
+│   ├── 0086-media-rk628-for-all-fix-reset-csi-error.patch
+│   ├── 0087-add-rk628-i2c-error-information.patch
+│   ├── 0088-media-rk628-for-all-bt1120-fix-display-offset-issue.patch
+│   ├── 0089-misc-rk628-gvi-add-support-gvi-frm-reset-config-opti.patch
+│   ├── 0090-media-rk628-for-all-add-hdmi2dsi-support.patch
+│   ├── 0091-misc-rk628-for-all-update-combrxphy-driver.patch
+│   ├── 0092-media-rk628-for-all-bt1120-set-io-func-to-gpio-when-.patch
+│   ├── 0093-meida-rk628-for-all-support-scale-to-1080p.patch
+│   ├── 0094-add-rk3399-hdmi2gvi-dts-demo.patch
+│   ├── 0095-misc-rk628-add-version-info.patch
+│   ├── 0096-media-rk628-for-all-fix-bt1120-scaler-error.patch
+│   ├── 0097-media-rk628-for-all-report-audio_fs-0-if-no-audio.patch
+│   ├── 0098-misc-rk628-for-all-update-regmap-readable-for-hdmirx.patch
+│   ├── 0099-misc-rk628-for-all-remove-global-variable-hdmirx.patch
+│   ├── 0100-media-rk628-for-all-add-hpd-output-inverted-support.patch
+│   ├── 0101-media-rk628-for-all-get-the-correct-frequency-value.patch
+│   ├── 0102-misc-rk628-for-all-hdmirx-add-yuv420-support.patch
+│   ├── 0103-misc-rk628-for-all-add-irq-support-for-hdmirx.patch
+│   ├── 0104-misc-rk628-for-all-config-4K-yuv420-in-dts.patch
+│   ├── 0105-misc-rk628-for-all-set-regmap-endian-to-REGMAP_ENDIA.patch
+│   ├── 0106-media-rk628-for-all-if-hdmi2csi-set-fmt_code-to-YUV4.patch
+│   ├── 0107-ARM-dts-rockchip-Add-support-for-rk3288-evb-rk628-mi.patch
+│   ├── 0108-misc-rk628-for-all-rename-drm_display_mode-to-rk628_.patch
+│   ├── 0109-misc-rk628-for-all-add-hdmitx-support.patch
+│   ├── 0110-rk3399-dts-add-hdmi-in-audio-support-and-hdmi-in-fun.patch
+│   ├── 0111-misc-rk628-for-all-fix-the-issue-of-interrupt-cannot.patch
+│   ├── 0112-meida-rk628-for-all-add-V4L2_CTRL_FLAG_VOLATILE-for-.patch
+│   ├── 0113-media-rk628-for-all-resolve-compilation-error-of-do_.patch
+│   ├── 0114-misc-rk628-for-all-add-suspend-resume-helper.patch
+│   ├── 0115-misc-rk628-combtxphy-reducing-LVDS-power-consumption.patch
+│   ├── 0116-media-rk628-for-all-support-2-lanes-for-csi.patch
+│   ├── 0117-arm64-dts-rockchip-rk3568-evb6-add-rk628-dts-demo-us.patch
+│   ├── 0118-rk628-for-all-add-pinctrl-support-for-media.patch
+│   ├── 0119-rk628-for-all-add-pinctrl-support-for-misc.patch
+│   ├── 0120-misc-fix-one-build-error.patch
+│   ├── 0121-Auto-generate-hdmirx-edid-init-data-according-to-src.patch
+│   ├── 0122-add-hdmi2dsi-and-hdmi2lvds-dts-demo-for-rk3288.patch
+│   ├── 0123-rv1126-dts-add-the-dts-for-hdmi2csi-demo.patch
+│   ├── 0124-misc-rk628-combtxphy-lvds-power-up-all-channel-after.patch
+│   ├── 0125-misc-rk628-for-all-optimized-hdmirx-detect-time.patch
+│   ├── 0126-i2c-rk3x-Call-rk3x_i2c_driver_init-early-when-CONFIG.patch
+│   ├── 0127-rk628-for-all-Call-rk628_i2c_driver_init-early-when-.patch
+│   ├── 0128-misc-rk628-Add-RK628_MISC-and-ROCKCHIP_THUNDER_BOOT_.patch
+│   ├── 0129-ARM-dts-rockchip-fixed-the-screen-does-not-light-up-.patch
+│   ├── 0130-rk628-for-all-Call-rockchip_pwm_driver_init-and-pwm_.patch
+│   ├── 0131-misc-rk628-dsi-remove-useless-debug-info.patch
+│   ├── 0132-misc-rk628-dsi-make-mipi-dsi-pre_enable-helper-call-.patch
+│   ├── 0133-modify-hdmi2dsi-src_mode-to-support-auto-edid.patch
+│   ├── 0134-misc-rk628-for-all-add-support-bt1120-rx.patch
+│   ├── 0135-rk628-for-all-add-support-power-supply-for-panel.patch
+│   ├── 0136-misc-fix-rgb2dsi-building-error.patch
+│   ├── 0137-misc-rk628-for-all-fix-no-display-after-resume.patch
+│   ├── 0138-misc-rk628-for-all-add-more-rk628d-display-pipe-rout.patch
+│   ├── 0139-ARM-dts-rockchip-add-more-display-route-info-detial.patch
+│   ├── 0140-update-rk3399-rk628-dts-according-to-misc-driver.patch
+│   ├── 0141-meida-rk628-for-all-fix-no-signal-during-preview.patch
+│   ├── 0142-misc-rk628-for-all-add-hdmi-mode-fixup.patch
+│   ├── 0143-media-rk628-for-all-fix-r2y_csc_mode-when-RGB-color-.patch
+│   ├── 0144-media-rk628_bt1120-fix-r2y_csc_mode-when-RGB-color-f.patch
+│   ├── 0145-meida-rk628-for-all-fix-nodisplay-after-source-resum.patch
+│   ├── 0146-for-all-media-add-resolution-change-for-fps.patch
+│   ├── 0147-for-all-misc-remove-supported_modes.patch
+│   ├── 0148-meida-rk628-for-all-some-platforms-may-be-slow-to-lo.patch
+│   ├── 0149-for-all-misc-add-kernel5.10-support.patch
+│   ├── 0150-media-i2c-rk628_csi_v4l2-fix-get-format.patch
+│   ├── 0151-misc-rk628-for-all-add-support-bt1120-tx.patch
+│   ├── 0152-fix-NON_CONTINUOUS_MODE-type-error.patch
+│   ├── 0153-fix-dclk-error-sometime-when-hdmi2lvds-case.patch
+│   ├── 0154-fix-rk628-media-code-building-error-on-kernel-5.10.patch
+│   ├── 0155-add-rk628-summary-debug-support.patch
+│   ├── 0156-media-i2c-rk628-add-bt1120-to-MIPI-CSI-2-support.patch
+│   ├── 0157-Revert-UPSTREAM-video-backlight-Add-helpers-to-enabl.patch
+│   ├── 0158-Revert-Revert-UPSTREAM-video-backlight-Add-helpers-t.patch
+│   ├── 0159-add-some-files-to-patch-list.patch
+│   ├── 0160-arm64-defconfig-enable-CONFIG_VIDEO_RK628-default.patch
+│   ├── 0161-add-some-rk628-dtsi-file.patch
+│   ├── 0162-temp-add-one-demo-for-keep-hdmi-resolution-but-disab.patch
+│   ├── 0163-temp-add-rockchip-rk3399-evb-ind-lpddr4-android-avb..patch
+│   ├── 0164-rv1126-dtsi-add-rv1126-hdmi2bt1120-demo.patch
+│   └── 0165-temp-add-rk3588-rk628-hdmi2dsi.dtsi-demo.patch
+└── tags_name.txt
+
+1 directory, 166 files
+
+补丁相关的源码列表：
+src_rk628-for-all-kernel-v21-221220
+├── filename.txt
+├── filepath.txt
+├── grepname.txt
+└── kernel
+    ├── arch
+    │   ├── arm
+    │   │   ├── boot
+    │   │   │   └── dts
+    │   │   │       ├── rk3288-evb-android-rk808-edp-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-csi.dtsi
+    │   │   │       ├── rk3288-evb-rk628.dtsi
+    │   │   │       ├── rk3288-evb-rk628-i2c-hdmi2csi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-i2c-hdmi2csi-v4l2-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-hdmi2dsi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-hdmi2gvi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-hdmi2lvds-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-hdmi2lvds-dual-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-rgb2dsi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-rgb2gvi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-rgb2hdmi-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-rgb2lvds-avb.dts
+    │   │   │       ├── rk3288-evb-rk628-misc-rgb2lvds-dual-avb.dts
+    │   │   │       ├── rk628.dtsi
+    │   │   │       ├── rv1126-evb-ddr3-v13-rk628-hdmi2bt1120-v4l2.dtsi
+    │   │   │       ├── rv1126-evb-ddr3-v13-rk628-hdmi2csi-v4l2.dtsi
+    │   │   │       └── rv1126-evb-v10.dtsi
+    │   │   └── configs
+    │   │       └── rockchip_defconfig
+    │   └── arm64
+    │       ├── boot
+    │       │   └── dts
+    │       │       └── rockchip
+    │       │           ├── rk3399-evb-ind-lpddr4-android-avb.dts
+    │       │           ├── rk3399-evb-ind-lpddr4-rk628-hdmi2csi-v4l2-avb.dts
+    │       │           ├── rk3399-evb-ind-lpddr4-rk628-hdmi2csi-v4l2.dts
+    │       │           ├── rk3399-evb-ind-lpddr4-rk628-hdmi2dsi-avb.dts
+    │       │           ├── rk3399-evb-ind-lpddr4-rk628-hdmi2gvi-avb.dts
+    │       │           ├── rk3568-evb6-ddr3-v10.dtsi
+    │       │           ├── rk3568-evb6-ddr3-v10-rk628-hdmi2dsi.dtsi
+    │       │           └── rk3588-rk628-hdmi2dsi.dtsi
+    │       └── configs
+    │           └── rockchip_defconfig
+    ├── Documentation
+    │   └── driver-model
+    │       └── devres.txt
+    ├── drivers
+    │   ├── base
+    │   │   └── regmap
+    │   │       └── regmap-debugfs.c
+    │   ├── clk
+    │   │   └── clk-devres.c
+    │   ├── gpu
+    │   │   └── drm
+    │   │       ├── bridge
+    │   │       │   └── synopsys
+    │   │       │       └── dw-hdmi.c
+    │   │       └── drm_edid.c
+    │   ├── i2c
+    │   │   └── busses
+    │   │       └── i2c-rk3x.c
+    │   ├── media
+    │   │   └── i2c
+    │   │       ├── Kconfig
+    │   │       ├── Makefile
+    │   │       └── rk628
+    │   │           ├── Makefile
+    │   │           ├── rk628_bt1120_csi.c
+    │   │           ├── rk628_bt1120_v4l2.c
+    │   │           ├── rk628.c
+    │   │           ├── rk628_combrxphy.c
+    │   │           ├── rk628_combrxphy.h
+    │   │           ├── rk628_combtxphy.c
+    │   │           ├── rk628_combtxphy.h
+    │   │           ├── rk628_cru.c
+    │   │           ├── rk628_cru.h
+    │   │           ├── rk628_csi.c
+    │   │           ├── rk628_csi.h
+    │   │           ├── rk628_csi_v4l2.c
+    │   │           ├── rk628_dsi.c
+    │   │           ├── rk628_dsi.h
+    │   │           ├── rk628_gpio.h
+    │   │           ├── rk628_grf.h
+    │   │           ├── rk628.h
+    │   │           ├── rk628_hdmirx.c
+    │   │           ├── rk628_hdmirx.h
+    │   │           ├── rk628_mipi_dphy.h
+    │   │           ├── rk628_pinctrl.c
+    │   │           ├── rk628_pinctrl.h
+    │   │           └── rk628_v4l2_controls.h
+    │   ├── misc
+    │   │   ├── Kconfig
+    │   │   ├── Makefile
+    │   │   └── rk628
+    │   │       ├── Kconfig
+    │   │       ├── Makefile
+    │   │       ├── panel.c
+    │   │       ├── panel.h
+    │   │       ├── rk628.c
+    │   │       ├── rk628_combrxphy.c
+    │   │       ├── rk628_combrxphy.h
+    │   │       ├── rk628_combtxphy.c
+    │   │       ├── rk628_combtxphy.h
+    │   │       ├── rk628_config.c
+    │   │       ├── rk628_config.h
+    │   │       ├── rk628_cru.c
+    │   │       ├── rk628_cru.h
+    │   │       ├── rk628_csi.c
+    │   │       ├── rk628_csi.h
+    │   │       ├── rk628_dsi.c
+    │   │       ├── rk628_dsi.h
+    │   │       ├── rk628_gpio.h
+    │   │       ├── rk628_grf.h
+    │   │       ├── rk628_gvi.c
+    │   │       ├── rk628_gvi.h
+    │   │       ├── rk628.h
+    │   │       ├── rk628_hdmirx.c
+    │   │       ├── rk628_hdmirx.h
+    │   │       ├── rk628_hdmitx.c
+    │   │       ├── rk628_hdmitx.h
+    │   │       ├── rk628_lvds.c
+    │   │       ├── rk628_lvds.h
+    │   │       ├── rk628_pinctrl.c
+    │   │       ├── rk628_pinctrl.h
+    │   │       ├── rk628_post_process.c
+    │   │       ├── rk628_post_process.h
+    │   │       ├── rk628_rgb.c
+    │   │       └── rk628_rgb.h
+    │   ├── pwm
+    │   │   └── pwm-rockchip.c
+    │   └── video
+    │       └── backlight
+    │           └── pwm_bl.c
+    └── include
+        ├── linux
+        │   ├── backlight.h
+        │   ├── clk.h
+        │   └── hdmi.h
+        ├── media
+        │   └── v4l2-controls_rockchip.h
+        └── uapi
+            └── linux
+                └── rk-camera-module.h
+
+36 directories, 106 files

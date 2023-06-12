@@ -1,0 +1,35 @@
+总体上，整包软件可以整体源码覆盖，但以下几个文件需要手动根据需求进行修改。
+1）
+kernel/include/linux/hdmi.h
+kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi.c  
+kernel/drivers/gpu/drm/drm_edid.c
+2）
+kernel/drivers/clk/clk-devres.c
+kernel/include/linux/clk.h
+3）
+kernel/arch/arm64/configs/rockchip_defconfig
+kernel/arch/arm/configs/rockchip_defconfig
+4）
+kernel/drivers/media/i2c/Kconfig
+kernel/drivers/media/i2c/Makefile
+kernel/drivers/misc/Makefile
+5）
+kernel/include/media/v4l2-controls_rockchip.h
+kernel/include/uapi/linux/rk-camera-module.h
+6）
+kernel/i2c/busses/i2c-rk3x.c
+
+其中
+文件1）是HDMI固定分辨率的补丁，根据需求手动修改；
+文件2）用于增加CLK接口，从V15版本后，都无需修改此文件；
+文件3）分别是是32位芯片和64位芯片的内配置文件，32位的有RK3288，64位的有RK3399,RK3568等，补丁是关原SDK的628配置，开for-all版本的628配置。
+文件4）是misc和media代码的编译配置开关，需要手动修改；
+文件5）是media代码需要引用的头文件，需要手动修改。
+文件6）提早加载I2C驱动的修改。
+
+对于手动合并的补丁可以类似搜索找到对应的补丁手动合并：
+patch_rk628-for-all-kernel-v19-220305$ grep i2c-rk3x.c ./ -r
+./kernel/0126-i2c-rk3x-Call-rk3x_i2c_driver_init-early-when-CONFIG.patch: drivers/i2c/busses/i2c-rk3x.c | 14 ++++++++++++++
+./kernel/0126-i2c-rk3x-Call-rk3x_i2c_driver_init-early-when-CONFIG.patch:diff --git a/drivers/i2c/busses/i2c-rk3x.c b/drivers/i2c/busses/i2c-rk3x.c
+./kernel/0126-i2c-rk3x-Call-rk3x_i2c_driver_init-early-when-CONFIG.patch:--- a/drivers/i2c/busses/i2c-rk3x.c
+./kernel/0126-i2c-rk3x-Call-rk3x_i2c_driver_init-early-when-CONFIG.patch:+++ b/drivers/i2c/busses/i2c-rk3x.c

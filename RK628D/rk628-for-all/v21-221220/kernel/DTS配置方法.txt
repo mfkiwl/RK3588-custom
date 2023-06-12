@@ -1,0 +1,355 @@
+rk628-for-all整套代码期望能兼容所有SOC，其目的与LINUX内核DRM显示架构解耦，让RK628的接口转换代码相对独立，方便版本管控和迭代，目前功能包括RGB->MIPI DSI，RGB->LVDS，RGB->GVI，RGB->HDMI, HDMI->MIPI-CSI以及HDMI->MIPI-DSI，HDMI->LVDS，HDMI->GVI，HDMI->BT1120，其中后几个直连方式需要固定HDMI分辨率。
+
+以下部分的补丁差异适用于V19以前的版本，V19及之后的版本的DTS配置有发生变化，以实际文件为准。
+1、drivers/media/misc 代码说明
+1）rk3288-evb-rk628-misc-rgb2dsi-avb.dts  基于rk3288-evb-android-rk808-evb.dts 增加RK628支持RGB转MIPI DSI的功能，具体差异修改参考如下：
+/{
+		panel {                                                                    
+                compatible = "simple-panel";                                       
+                backlight = <&backlight>;                                          
+                //enable-gpios = <&gpio7 RK_PA2 GPIO_ACTIVE_HIGH>;
+                prepare-delay-ms = <120>;                                          
+                enable-delay-ms = <120>;                                           
+                disable-delay-ms = <120>;                                          
+                unprepare-delay-ms = <20>;                                         
+                status = "okay";                                                   
+                                                                                   
+                display-timings {                                                  
+                        native-mode = <&timing0>;                                  
+                                                                                   
+                        timing0: timing0 {                                         
+                                clock-frequency = <132000000>;                     
+                                hactive = <1080>;                                  
+                                vactive = <1920>;                                  
+                                hback-porch = <30>;                                
+                                hfront-porch = <15>;                               
+                                vback-porch = <15>;                                
+                                vfront-porch = <15>;                               
+                                hsync-len = <2>;                                   
+                                vsync-len = <2>;                                   
+                                hsync-active = <0>;                                
+                                vsync-active = <0>;                                
+                                de-active = <0>;                                   
+                                pixelclk-active = <0>;                             
+                        };                                                         
+                };                                                                 
+                                                                                   
+                port {                                                          
+                        panel_in_lvds: endpoint {                               
+                                remote-endpoint = <&lvds_out_panel>;            
+                        };                                                      
+                };                                                              
+        };
+};
+
+&rgb {                                                                          
+        status = "okay";                                                        
+                                                                                
+        ports {                                                                 
+                port@1 {                                                        
+                        reg = <1>;                                              
+                                                                                
+                        lvds_out_panel: endpoint {                              
+                                remote-endpoint = <&panel_in_lvds>;             
+                        };                                                      
+                };                                                              
+        };                                                                      
+};                                                                              
+
+&video_phy {                                                                    
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&rgb_in_vopb {                                                                  
+        status = "disabled";                                                    
+};                                                                              
+                                                                                
+&rgb_in_vopl {                                                                  
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&route_rgb {                                                                    
+        connect = <&vopl_out_rgb>;                                              
+        status = "okay";                                                        
+};
+                                                                           
+&rk628 {                                                                        
+        reg = <0x50>;                                                           
+        interrupt-parent = <&gpio7>;                                            
+        interrupts = <15 IRQ_TYPE_LEVEL_HIGH>;                                  
+        enable-gpios = <&gpio5 RK_PC2 GPIO_ACTIVE_HIGH>;                        
+        reset-gpios = <&gpio7 RK_PB6 GPIO_ACTIVE_LOW>;                          
+        panel-enable-gpios = <&gpio7 RK_PA2 GPIO_ACTIVE_HIGH>;                  
+        status = "okay";                                                        
+};
+
+2）rk3288-evb-rk628-misc-rgb2lvds-avb.dts  基于rk3288-evb-android-rk808-evb.dts 增加RK628支持RGB转LVDS的功能，具体差异修改参考如下：
+/{
+		panel {                                                                 
+                compatible = "simple-panel";                                    
+                backlight = <&backlight>;                                                                           
+                enable-gpios = <&gpio7 RK_PA2 GPIO_ACTIVE_HIGH>;                
+                prepare-delay-ms = <120>;                                       
+                enable-delay-ms = <120>;                                        
+                disable-delay-ms = <120>;                                       
+                unprepare-delay-ms = <20>;                                      
+                status = "okay";                                                
+                                                                                
+                display-timings {                                               
+                        native-mode = <&timing0>;                               
+                                                                                
+                        timing0: timing0 {                                         
+                                clock-frequency = <68000000>;                      
+                                hactive = <800>;                                   
+                                vactive = <1280>;                                  
+                                hback-porch = <30>;                                
+                                hfront-porch = <30>;                               
+                                vback-porch = <3>;                                 
+                                vfront-porch = <3>;                                
+                                hsync-len = <4>;                                   
+                                vsync-len = <2>;                                   
+                                hsync-active = <0>;                                
+                                vsync-active = <0>;                                
+                                de-active = <0>;                                   
+                                pixelclk-active = <0>;                             
+                        };                                                      
+                };                                                                 
+                                                                                   
+                port {                                                             
+                        panel_in_lvds: endpoint {                                  
+                                remote-endpoint = <&lvds_out_panel>;               
+                        };                                                         
+                };                                                              
+        };
+};
+
+&rgb {                                                                          
+        status = "okay";                                                        
+                                                                                
+        ports {                                                                 
+                port@1 {                                                        
+                        reg = <1>;                                              
+                                                                                
+                        lvds_out_panel: endpoint {                              
+                                remote-endpoint = <&panel_in_lvds>;             
+                        };                                                      
+                };                                                              
+        };                                                                      
+};                                                                              
+
+&video_phy {                                                                    
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&rgb_in_vopb {                                                                  
+        status = "disabled";                                                    
+};                                                                              
+                                                                                
+&rgb_in_vopl {                                                                  
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&route_rgb {                                                                    
+        connect = <&vopl_out_rgb>;                                              
+        status = "okay";                                                        
+};
+                                                                             
+&rk628 {                                                                        
+        reg = <0x50>;                                                           
+        interrupt-parent = <&gpio7>;                                            
+        interrupts = <15 IRQ_TYPE_LEVEL_HIGH>;                                  
+        enable-gpios = <&gpio5 RK_PC2 GPIO_ACTIVE_HIGH>;                        
+        reset-gpios = <&gpio7 RK_PB6 GPIO_ACTIVE_LOW>;                          
+        //panel-enable-gpios = <&gpio7 RK_PA2 GPIO_ACTIVE_HIGH>;                
+        status = "okay";                                                        
+};                                                                              
+
+3）rk3288-evb-rk628-misc-rgb2gvi-avb.dts  基于rk3288-evb-android-rk808-evb.dts 增加RK628支持RGB转GVI的功能，具体差异修改参考如下：
+
+/{
+		panel {                                                                    
+                compatible = "simple-panel";                                       
+                backlight = <&backlight>;                                        
+                enable-gpios = <&gpio7 21 GPIO_ACTIVE_HIGH>;                       
+                prepare-delay-ms = <120>;                                          
+                enable-delay-ms = <120>;                                           
+                disable-delay-ms = <120>;                                          
+                unprepare-delay-ms = <20>;                                         
+                status = "okay";                                                   
+                                                                                   
+                display-timings {                                                  
+                        native-mode = <&timing0>;                                  
+                                                                                   
+                        timing0: timing0 {                                         
+                                clock-frequency = <148500000>;                     
+                                hactive = <1920>;                                  
+                                vactive = <1080>;                                  
+                                hback-porch = <148>;                               
+                                hfront-porch = <88>;                               
+                                vback-porch = <36>;                                
+                                vfront-porch = <4>;                                
+                                hsync-len = <44>;                                  
+                                vsync-len = <5>;                                   
+                                hsync-active = <0>;                                
+                                vsync-active = <0>;                                
+                                de-active = <0>;                                   
+                                pixelclk-active = <0>;                             
+                        };                                                         
+                };                                                                 
+                                                                                   
+                port {                                                             
+                        panel_in_lvds: endpoint {                                  
+                                remote-endpoint = <&lvds_out_panel>;               
+                        };                                                         
+                };                                                                 
+        };
+};
+
+&rgb {                                                                          
+        status = "okay";                                                        
+                                                                                
+        ports {                                                                 
+                port@1 {                                                        
+                        reg = <1>;                                              
+                                                                                
+                        lvds_out_panel: endpoint {                              
+                                remote-endpoint = <&panel_in_lvds>;             
+                        };                                                      
+                };                                                              
+        };                                                                      
+};                                                                              
+                                                                                
+&rk628 {                                                                        
+        reg = <0x50>;                                                           
+        pinctrl-names = "default";                                              
+        pinctrl-0 = <&test_clkout>;                                             
+        assigned-clocks = <&cru SCLK_TESTOUT_SRC>;                              
+        assigned-clock-parents = <&xin24m>;                                     
+        clocks = <&cru SCLK_TESTOUT>;                                           
+        clock-names = "soc_24M";                                                
+        interrupt-parent = <&gpio7>;                                            
+        interrupts = <15 IRQ_TYPE_LEVEL_HIGH>;                                  
+        enable-gpios = <&gpio5 RK_PC2 GPIO_ACTIVE_HIGH>;                        
+        reset-gpios = <&gpio7 RK_PB6 GPIO_ACTIVE_LOW>;                          
+        //panel-enable-gpios = <&gpio7 RK_PA2 GPIO_ACTIVE_HIGH>;                
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&video_phy {                                                                    
+        status = "okay";                                                        
+};                                                                              
+                                                                                
+&rgb_in_vopb {                                                                  
+        status = "disabled";                                                    
+};                                                                              
+                                                                                
+&rgb_in_vopl {                                                                  
+        status = "okay";                                                        
+};
+
+&route_rgb {                                                                    
+        connect = <&vopl_out_rgb>;                                              
+        status = "disabled";                                                    
+};                                                                              
+                                                                                
+&pinctrl {                                                                      
+        test {                                                                  
+                test_clkout: test-clkout {                                      
+                        rockchip,pins = <0 17 RK_FUNC_1 &pcfg_pull_none>;       
+                };                                                              
+        };                                                                      
+};
+
+4）rk3399-evb-ind-lpddr4-rk628-hdmi2dsi-avb.dts  基于rk3399-evb-ind-lpddr4-android-avb.dts 增加RK628支持HDMI转DSI的功能，具体差异可以自行对比。
+
+
+2、drivers/media/i2c/rk628 代码说明：
+1）rk3288-evb-rk628-i2c-hdmi2csi-avb.dts是基于rk3288-evb-android-rk808-edp-avb.dts 进行修改的（具体差异请自行对比），对应代码为drivers/media/i2c/media/rk628/rk628_csi.c，针对hdmi2csi应用，但脱离v4l2框架，目标DTS需新增如下配置：
+&i2c1 {
+        clock-frequency = <400000>;
+        status = "okay";
+        rk628_hdmi2csi: rk628_hdmi2csi@51 {
+                reg = <0x51>;
+                compatible = "rockchip,rk628-hdmi2csi";
+                interrupt-parent = <&gpio7>;
+                interrupts = <11 IRQ_TYPE_LEVEL_HIGH>;
+                enable-gpios = <&gpio5 RK_PC3 GPIO_ACTIVE_HIGH>;
+                reset-gpios = <&gpio7 RK_PB4 GPIO_ACTIVE_LOW>;
+                plugin-det-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+                power-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+                status = "okay";
+        };
+};
+
+2）rk3288-evb-rk628-i2c-hdmi2csi-v4l2-avb.dts 是基于rk3288-evb-android-rk808-edp-avb.dts 进行修改的（具体差异请自行对比），对应代码为drivers/media/i2c/media/rk628/rk628_csi_v4l2.c，其针对hdmi2csi应用，适配v4l2框架，目标DTS需新增如下配置：
+&i2c1 {
+        clock-frequency = <400000>;
+        status = "okay";
+        rk628_csi_v4l2: rk628_csi_v4l2@51 {
+                reg = <0x51>;
+                compatible = "rockchip,rk628-csi-v4l2";
+                interrupt-parent = <&gpio7>;
+                interrupts = <11 IRQ_TYPE_LEVEL_HIGH>;
+                enable-gpios = <&gpio5 RK_PC3 GPIO_ACTIVE_HIGH>;
+                reset-gpios = <&gpio7 RK_PB4 GPIO_ACTIVE_LOW>;
+                plugin-det-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+                power-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+
+                rockchip,camera-module-index = <0>;
+                rockchip,camera-module-facing = "back";
+                rockchip,camera-module-name = "RK628-CSI";
+                rockchip,camera-module-lens-name = "NC";
+
+                port {
+                        hdmiin_out0: endpoint {
+                                remote-endpoint = <&mipi_in>;
+                                data-lanes = <1 2 3 4>;
+                        };
+                };
+        };
+};
+
+&mipi_phy_rx0 {
+        status = "okay";
+
+        ports {
+                #address-cells = <1>;
+                #size-cells = <0>;
+
+                port@0 {
+                        reg = <0>;
+                        #address-cells = <1>;
+                        #size-cells = <0>;
+
+                        mipi_in: endpoint@1 {
+                                reg = <1>;
+                                remote-endpoint = <&hdmiin_out0>;
+                                data-lanes = <1 2 3 4>;
+                        };
+                };
+
+                port@1 {
+                        reg = <1>;
+                        #address-cells = <1>;
+                        #size-cells = <0>;
+
+                        dphy_rx_out: endpoint@0 {
+                                reg = <0>;
+                                remote-endpoint = <&isp_mipi_in>;
+                        };
+                };
+        };
+};
+
+&rkisp1 {
+        status = "okay";
+        port {
+                #address-cells = <1>;
+                #size-cells = <0>;
+
+                isp_mipi_in: endpoint@0 {
+                        reg = <0>;
+                        remote-endpoint = <&dphy_rx_out>;
+                };
+        };
+};

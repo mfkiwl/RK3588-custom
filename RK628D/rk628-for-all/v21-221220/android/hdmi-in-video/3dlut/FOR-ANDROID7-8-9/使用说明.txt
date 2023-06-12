@@ -1,0 +1,22 @@
+1、DisplayAdjust-APK.zip 解压到packages/apps/ 目录下
+2、frameworks/native 目录下打补丁
+ANDROID7:
+patch_rk628-3dlut-android7-211118.tar.gz ---补丁包
+src_rk628-3dlut-android7-211118.tar.gz ---补丁相关源文件
+ANDROID9:
+patch_rk628-3dlut-android9-211118.tar.gz ---补丁包
+src_rk628-3dlut-android9-211118.tar.gz ---补丁相关源文件
+
+3、该补丁包适用于RK芯片的ANDROID9版本，如果是ANDROID8/ANDROID7的话，frameworks/native还需要修改以下部分：
+
+--- a/services/surfaceflinger/RenderEngine/GLES20RenderEngine.cpp
++++ b/services/surfaceflinger/RenderEngine/GLES20RenderEngine.cpp
+@ -212,7 +212,7 @ GLES20RenderEngine::GLES20RenderEngine(uint32_t featureFlags)
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 1, 1, 0, GL_RGB, GL_UNSIGNED_SHORT_5_6_5, protTexData);
+#if RK_GPU_3DLUT
+
+- property_set("vendor.hwc.compose_policy", "0"); //if < 9.0 then sys.hwc.compose_policy
++ property_set("sys.hwc.compose_policy", "0"); //if < 9.0 then sys.hwc.compose_policy
+
+
+注：该补丁包已在RK3399-ANDROID9.0上验证通过，对于ANDROID7/8理论上也能通用。
